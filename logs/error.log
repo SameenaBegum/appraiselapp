@@ -666,3 +666,1382 @@
   label: 'appraiselapp',
   timestamp: '2023-02-28T10:46:47.936Z'
 }
+{
+  error: Error: Cannot find module 'cors'
+  Require stack:
+  - C:\appraisel\app.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\app.js:4:14)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [ 'C:\\appraisel\\app.js' ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'cors'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\app.js\n' +
+    "Error: Cannot find module 'cors'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\app.js:4:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)',
+  stack: "Error: Cannot find module 'cors'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\app.js:4:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)',
+  exception: true,
+  date: 'Tue Feb 28 2023 17:11:56 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13812,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 40906752,
+      heapTotal: 19554304,
+      heapUsed: 12147504,
+      external: 2504174,
+      arrayBuffers: 277868
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 536883 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\appraisel\\app.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 79,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T11:41:56.592Z'
+}
+{
+  error: Error: Cannot find module 'cors'
+  Require stack:
+  - C:\appraisel\app.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\app.js:4:14)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [ 'C:\\appraisel\\app.js' ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'cors'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\app.js\n' +
+    "Error: Cannot find module 'cors'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\app.js:4:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)',
+  stack: "Error: Cannot find module 'cors'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\app.js:4:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)',
+  exception: true,
+  date: 'Tue Feb 28 2023 17:12:21 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9332,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 41058304,
+      heapTotal: 19816448,
+      heapUsed: 12358872,
+      external: 2504174,
+      arrayBuffers: 277868
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 536907 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\appraisel\\app.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 79,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T11:42:21.049Z'
+}
+{
+  error: Error: Cannot find module 'cookie-parser'
+  Require stack:
+  - C:\appraisel\app.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\app.js:5:20)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [ 'C:\\appraisel\\app.js' ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'cookie-parser'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\app.js\n' +
+    "Error: Cannot find module 'cookie-parser'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\app.js:5:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)',
+  stack: "Error: Cannot find module 'cookie-parser'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\app.js:5:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)',
+  exception: true,
+  date: 'Tue Feb 28 2023 17:44:16 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16036,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 41254912,
+      heapTotal: 19554304,
+      heapUsed: 12290904,
+      external: 2504174,
+      arrayBuffers: 277868
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 538822 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\appraisel\\app.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 79,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T12:14:16.081Z'
+}
+{
+  error: Error: Cannot find module 'passport'
+  Require stack:
+  - C:\appraisel\app.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\app.js:6:18)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [ 'C:\\appraisel\\app.js' ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'passport'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\app.js\n' +
+    "Error: Cannot find module 'passport'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\app.js:6:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)',
+  stack: "Error: Cannot find module 'passport'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\app.js:6:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)',
+  exception: true,
+  date: 'Tue Feb 28 2023 17:45:47 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8532,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 40820736,
+      heapTotal: 19292160,
+      heapUsed: 12259968,
+      external: 2504174,
+      arrayBuffers: 277868
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 538914 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\app.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 79,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T12:15:47.924Z'
+}
+{
+  error: Error: Cannot find module 'jsonwebtoken'
+  Require stack:
+  - C:\appraisel\utils\socket.js
+  - C:\appraisel\app.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\utils\socket.js:2:11)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [ 'C:\\appraisel\\utils\\socket.js', 'C:\\appraisel\\app.js' ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'jsonwebtoken'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\utils\\socket.js\n' +
+    '- C:\\appraisel\\app.js\n' +
+    "Error: Cannot find module 'jsonwebtoken'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\utils\\socket.js\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\utils\\socket.js:2:11)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)',
+  stack: "Error: Cannot find module 'jsonwebtoken'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\utils\\socket.js\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\utils\\socket.js:2:11)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)',
+  exception: true,
+  date: 'Tue Feb 28 2023 17:46:30 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10932,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 40947712,
+      heapTotal: 19030016,
+      heapUsed: 12363488,
+      external: 2512366,
+      arrayBuffers: 286060
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 538957 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'C:\\appraisel\\utils\\socket.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T12:16:30.646Z'
+}
+{
+  error: Error: Cannot find module 'jsonwebtoken'
+  Require stack:
+  - C:\appraisel\utils\socket.js
+  - C:\appraisel\app.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\utils\socket.js:2:11)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [ 'C:\\appraisel\\utils\\socket.js', 'C:\\appraisel\\app.js' ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'jsonwebtoken'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\utils\\socket.js\n' +
+    '- C:\\appraisel\\app.js\n' +
+    "Error: Cannot find module 'jsonwebtoken'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\utils\\socket.js\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\utils\\socket.js:2:11)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)',
+  stack: "Error: Cannot find module 'jsonwebtoken'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\utils\\socket.js\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\utils\\socket.js:2:11)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)',
+  exception: true,
+  date: 'Tue Feb 28 2023 17:46:43 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 5180,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 41140224,
+      heapTotal: 19292160,
+      heapUsed: 12212440,
+      external: 2512366,
+      arrayBuffers: 264768
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 538970 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'C:\\appraisel\\utils\\socket.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T12:16:43.724Z'
+}
+{
+  error: Error: Cannot find module 'jsonwebtoken'
+  Require stack:
+  - C:\appraisel\utils\socket.js
+  - C:\appraisel\app.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\utils\socket.js:2:11)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [ 'C:\\appraisel\\utils\\socket.js', 'C:\\appraisel\\app.js' ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'jsonwebtoken'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\utils\\socket.js\n' +
+    '- C:\\appraisel\\app.js\n' +
+    "Error: Cannot find module 'jsonwebtoken'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\utils\\socket.js\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\utils\\socket.js:2:11)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)',
+  stack: "Error: Cannot find module 'jsonwebtoken'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\utils\\socket.js\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\utils\\socket.js:2:11)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)',
+  exception: true,
+  date: 'Tue Feb 28 2023 17:47:04 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 4772,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 41050112,
+      heapTotal: 19554304,
+      heapUsed: 12391544,
+      external: 2512366,
+      arrayBuffers: 286060
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 538991 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'C:\\appraisel\\utils\\socket.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T12:17:05.007Z'
+}
+{
+  error: Error: Cannot find module 'socket.io'
+  Require stack:
+  - C:\appraisel\utils\socket.js
+  - C:\appraisel\app.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\utils\socket.js:6:10)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [ 'C:\\appraisel\\utils\\socket.js', 'C:\\appraisel\\app.js' ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'socket.io'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\utils\\socket.js\n' +
+    '- C:\\appraisel\\app.js\n' +
+    "Error: Cannot find module 'socket.io'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\utils\\socket.js\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\utils\\socket.js:6:10)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)',
+  stack: "Error: Cannot find module 'socket.io'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\utils\\socket.js\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\utils\\socket.js:6:10)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)',
+  exception: true,
+  date: 'Tue Feb 28 2023 17:47:50 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7980,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 41123840,
+      heapTotal: 19292160,
+      heapUsed: 12257232,
+      external: 2512366,
+      arrayBuffers: 264768
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 539037 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\utils\\socket.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T12:17:50.582Z'
+}
+{
+  error: Error: Cannot find module 'socket.io'
+  Require stack:
+  - C:\appraisel\utils\socket.js
+  - C:\appraisel\app.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\utils\socket.js:6:10)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [ 'C:\\appraisel\\utils\\socket.js', 'C:\\appraisel\\app.js' ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'socket.io'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\utils\\socket.js\n' +
+    '- C:\\appraisel\\app.js\n' +
+    "Error: Cannot find module 'socket.io'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\utils\\socket.js\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\utils\\socket.js:6:10)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)',
+  stack: "Error: Cannot find module 'socket.io'\n" +
+    'Require stack:\n' +
+    '- C:\\appraisel\\utils\\socket.js\n' +
+    '- C:\\appraisel\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\utils\\socket.js:6:10)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)',
+  exception: true,
+  date: 'Tue Feb 28 2023 17:47:56 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 1828,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 41361408,
+      heapTotal: 19292160,
+      heapUsed: 12324664,
+      external: 2512366,
+      arrayBuffers: 264768
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 539042 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\utils\\socket.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T12:17:56.049Z'
+}
