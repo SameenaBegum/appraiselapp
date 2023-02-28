@@ -1,0 +1,528 @@
+{
+  error: TypeError: JwtStrategy requires a secret or key
+      at new JwtStrategy (C:\appraisel1\node_modules\passport-jwt\lib\strategy.js:45:15)
+      at Object.<anonymous> (C:\appraisel1\app.js:33:14)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+      at node:internal/main/run_main_module:17:47,
+  level: 'error',
+  message: 'uncaughtException: JwtStrategy requires a secret or key\n' +
+    'TypeError: JwtStrategy requires a secret or key\n' +
+    '    at new JwtStrategy (C:\\appraisel1\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n' +
+    '    at Object.<anonymous> (C:\\appraisel1\\app.js:33:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  stack: 'TypeError: JwtStrategy requires a secret or key\n' +
+    '    at new JwtStrategy (C:\\appraisel1\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n' +
+    '    at Object.<anonymous> (C:\\appraisel1\\app.js:33:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  exception: true,
+  date: 'Tue Feb 28 2023 12:49:41 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2852,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel1',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel1\\app.js' ],
+    memoryUsage: {
+      rss: 56950784,
+      heapTotal: 33566720,
+      heapUsed: 23397872,
+      external: 2379732,
+      arrayBuffers: 1164121
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 521147 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\appraisel1\\node_modules\\passport-jwt\\lib\\strategy.js',
+      function: 'new JwtStrategy',
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\appraisel1\\app.js',
+      function: null,
+      line: 33,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 79,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T07:19:41.362Z'
+}
+{
+  error: TypeError: JwtStrategy requires a secret or key
+      at new JwtStrategy (C:\appraisel1\node_modules\passport-jwt\lib\strategy.js:45:15)
+      at Object.<anonymous> (C:\appraisel1\app.js:33:14)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+      at node:internal/main/run_main_module:17:47,
+  level: 'error',
+  message: 'uncaughtException: JwtStrategy requires a secret or key\n' +
+    'TypeError: JwtStrategy requires a secret or key\n' +
+    '    at new JwtStrategy (C:\\appraisel1\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n' +
+    '    at Object.<anonymous> (C:\\appraisel1\\app.js:33:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  stack: 'TypeError: JwtStrategy requires a secret or key\n' +
+    '    at new JwtStrategy (C:\\appraisel1\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n' +
+    '    at Object.<anonymous> (C:\\appraisel1\\app.js:33:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)\n' +
+    '    at node:internal/main/run_main_module:17:47',
+  exception: true,
+  date: 'Tue Feb 28 2023 12:52:38 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10040,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel1',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel1\\app.js' ],
+    memoryUsage: {
+      rss: 56360960,
+      heapTotal: 33566720,
+      heapUsed: 23292592,
+      external: 2379732,
+      arrayBuffers: 1164121
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 521325 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\appraisel1\\node_modules\\passport-jwt\\lib\\strategy.js',
+      function: 'new JwtStrategy',
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\appraisel1\\app.js',
+      function: null,
+      line: 33,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 79,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T07:22:38.988Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::8080
+      at Server.setupListenHandle [as _listen2] (node:net:1319:16)
+      at listenInCluster (node:net:1367:12)
+      at Server.listen (node:net:1454:7)
+      at Function.listen (C:\appraisel1\node_modules\express\lib\application.js:618:24)
+      at Object.<anonymous> (C:\appraisel1\app.js:77:5)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 8080
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::8080\n' +
+    'Error: listen EADDRINUSE: address already in use :::8080\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1319:16)\n' +
+    '    at listenInCluster (node:net:1367:12)\n' +
+    '    at Server.listen (node:net:1454:7)\n' +
+    '    at Function.listen (C:\\appraisel1\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at Object.<anonymous> (C:\\appraisel1\\app.js:77:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::8080\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1319:16)\n' +
+    '    at listenInCluster (node:net:1367:12)\n' +
+    '    at Server.listen (node:net:1454:7)\n' +
+    '    at Function.listen (C:\\appraisel1\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at Object.<anonymous> (C:\\appraisel1\\app.js:77:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)',
+  exception: true,
+  date: 'Tue Feb 28 2023 12:55:23 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9280,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel1',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel1\\app.js' ],
+    memoryUsage: {
+      rss: 59211776,
+      heapTotal: 37498880,
+      heapUsed: 19437176,
+      external: 2753501,
+      arrayBuffers: 397858
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 521490 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1319,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1367,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 1454,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\appraisel1\\node_modules\\express\\lib\\application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel1\\app.js',
+      function: null,
+      line: 77,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 79,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T07:25:23.789Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::8080
+      at Server.setupListenHandle [as _listen2] (node:net:1319:16)
+      at listenInCluster (node:net:1367:12)
+      at Server.listen (node:net:1454:7)
+      at Function.listen (C:\appraisel\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (C:\appraisel\app.js:26:5)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 8080
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::8080\n' +
+    'Error: listen EADDRINUSE: address already in use :::8080\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1319:16)\n' +
+    '    at listenInCluster (node:net:1367:12)\n' +
+    '    at Server.listen (node:net:1454:7)\n' +
+    '    at Function.listen (C:\\appraisel\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\app.js:26:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::8080\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1319:16)\n' +
+    '    at listenInCluster (node:net:1367:12)\n' +
+    '    at Server.listen (node:net:1454:7)\n' +
+    '    at Function.listen (C:\\appraisel\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\app.js:26:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)',
+  exception: true,
+  date: 'Tue Feb 28 2023 15:31:48 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 12944,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 41291776,
+      heapTotal: 19292160,
+      heapUsed: 12436312,
+      external: 2514382,
+      arrayBuffers: 256576
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 530874 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1319,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1367,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 1454,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\application.js',
+      function: 'Function.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\app.js',
+      function: null,
+      line: 26,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 79,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T10:01:48.489Z'
+}
