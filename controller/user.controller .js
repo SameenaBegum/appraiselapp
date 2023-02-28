@@ -176,6 +176,45 @@ const userController = {
          }
        },
 
+
+       async formDetails(req,res) {
+        console.log('working')
+         try{
+
+            let{
+          username,
+          Manager_name,
+          Designation,
+          Department,
+          Joining_date,
+          Review_period
+       }=req.body;
+            console.log("working1")
+            var UserData={
+              username,
+              Manager_name,
+              Designation,
+              Department,
+              Joining_date,
+           }
+            
+     let [form] = await UserModel.formDetails(UserData);
+          console.log("All details---->",comments)
+             if(form[0].affectedrows>0){
+               console.log("get------",form)
+               new Response(res)._SuccessResponseWithData("Details Added Successfully",form)
+             
+             }
+             else{
+               new Response(res)._ErrorMessage("Data Not Found")
+             }
+         }
+         catch(err){
+             
+         }
+       },
+
+
        
 }
 

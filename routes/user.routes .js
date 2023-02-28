@@ -21,6 +21,10 @@ router.get('/getSoft',userController.getSoftSkill);
 
 router.post('/AddComment',userController.addComment);
 
+//-------------add form details------------//
+
+router.post('/FormDetails',userController.formDetails);
+
 
 
 

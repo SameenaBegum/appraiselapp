@@ -1,0 +1,12 @@
+{
+  message: "PREPARING INSERT INTO users (email) VALUES ('sameenabegaasaum.s@skeintech.com')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2023-02-28T09:00:25.600Z'
+}
+{
+  message: "PREPARING INSERT INTO users (email) VALUES ('sameenabegaasaum.s@skeintech.com')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2023-02-28T09:00:25.603Z'
+}
