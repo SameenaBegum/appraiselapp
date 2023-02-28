@@ -190,16 +190,16 @@ const userController = {
           Review_period
        }=req.body;
             console.log("working1")
-            var UserData={
+            var Data={
               username,
               Manager_name,
               Designation,
               Department,
               Joining_date,
            }
-            
-     let [form] = await UserModel.formDetails(UserData);
-          console.log("All details---->",comments)
+            console.log("data----",Data)
+     let [form] = await UserModel.formDetails(Data);
+          console.log("All details---->",form)
              if(form[0].affectedrows>0){
                console.log("get------",form)
                new Response(res)._SuccessResponseWithData("Details Added Successfully",form)

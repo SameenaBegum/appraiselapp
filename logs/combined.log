@@ -10,3 +10,39 @@
   label: 'appraiselapp',
   timestamp: '2023-02-28T10:26:14.830Z'
 }
+{
+  message: "PREPARING INSERT INTO users (username,Manager_name,Designation,Department,Joining_date) VALUES (NULL,NULL,'software developer','developing','30-05-2022')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T12:41:13.597Z'
+}
+{
+  message: "PREPARING INSERT INTO users (username,Manager_name,Designation,Department,Joining_date) VALUES (NULL,NULL,'software developer','developing','30-05-2022')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T12:41:13.600Z'
+}
+{
+  message: "PREPARING INSERT INTO users (username,Manager_name,Designation,Department,Joining_date) VALUES (NULL,NULL,'software developer','developing','30-05-2022')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T12:48:42.181Z'
+}
+{
+  message: "PREPARING INSERT INTO users (username,Manager_name,Designation,Department,Joining_date) VALUES (NULL,NULL,'software developer','developing','30-05-2022')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T12:48:42.184Z'
+}
+{
+  message: "PREPARING INSERT INTO users (username,Manager_name,Designation,Department,Joining_date) VALUES ('sameena','rajmanickam','software developer','developing','30-05-2022')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T12:50:43.688Z'
+}
+{
+  message: "PREPARING INSERT INTO users (username,Manager_name,Designation,Department,Joining_date) VALUES ('sameena','rajmanickam','software developer','developing','30-05-2022')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-02-28T12:50:43.690Z'
+}

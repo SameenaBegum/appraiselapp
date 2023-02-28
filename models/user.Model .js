@@ -1,5 +1,6 @@
 //const database = require("../utils/database")
 
+//const { formDetails } = require("../controller/user.controller ");
 const QueryGenerator = require("../generators/query.generator")
 const database = require("../utils/database")
 const UserModel = {
@@ -35,6 +36,12 @@ const UserModel = {
     async addComment(UserData){
         console.log("data-----",UserData)
         let query=QueryGenerator.insert('technicalaspects',UserData)
+        return database.promise().query(query)
+    },
+
+    async formDetails(Data){
+        console.log("email1-----",Data)
+        let query=QueryGenerator.insert('users',Data)
         return database.promise().query(query)
     },
 
