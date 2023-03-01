@@ -150,21 +150,29 @@ const userController = {
        async addComment(req,res) {
         console.log('working')
          try{
-
+           let email =req.query
             let{
-          
-                comment
+          self_rating,
+          self_comment,
+          manager_rating,
+          manager_comment
           }=req.body;
             console.log("working1")
             var UserData={
-            comment
+              self_rating,
+              self_comment,
+              manager_rating,
+              manager_comment
                }
+               
+        let [emailcheck] = await UserModel.emailCheck(email);
+        console.log("zzzzzzzz------",emailcheck)
             
-     let [comments] = await UserModel.addComment(UserData);
+     let [comments] = await UserModel.addComment(email);
           console.log("All details---->",comments)
-             if(comments[0].affectedrows>0){
+             if(comments.affectedrows>0){
                console.log("get------",comments)
-               new Response(res)._SuccessResponseWithData("Comments Added Successfully",comments)
+               new Response(res)._SuccessResponseWithData("Comments Added Successfully",comments[0])
              
              }
              else{

@@ -76,3 +76,81 @@
   label: 'appraiselapp',
   timestamp: '2023-03-01T10:33:54.599Z'
 }
+{
+  message: "PREPARING select * from users where email ='sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T11:04:08.663Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (self_rating,self_comment,manager_rating,manager_comment) VALUES (1,'wwwww',1,'wwwww')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T12:02:57.243Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (self_rating,self_comment,manager_rating,manager_comment) VALUES (1,'wwwww',1,'wwwww')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T12:02:57.256Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (self_rating,self_comment,manager_rating,manager_comment) VALUES (1,'wwwww',1,'wwwww')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T12:03:35.955Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (self_rating,self_comment,manager_rating,manager_comment) VALUES (1,'wwwww',1,'wwwww')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T12:03:35.959Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (self_rating,self_comment,manager_rating,manager_comment) VALUES (1,'wwwww',1,'wwwww')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T12:44:37.324Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (self_rating,self_comment,manager_rating,manager_comment) VALUES (1,'wwwww',1,'wwwww')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T12:44:37.341Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (self_rating,self_comment,manager_rating,manager_comment) VALUES (1,'wwwww',1,'wwwww')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T12:45:28.229Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (self_rating,self_comment,manager_rating,manager_comment) VALUES (1,'wwwww',1,'wwwww')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T12:45:28.232Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (self_rating,self_comment,manager_rating,manager_comment) VALUES (1,'wwwww',1,'wwwww')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T12:50:02.885Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (self_rating,self_comment,manager_rating,manager_comment) VALUES (1,'wwwww',1,'wwwww')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T12:50:02.898Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (email) VALUES ('sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T12:53:24.908Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (email) VALUES ('sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T12:53:24.914Z'
+}

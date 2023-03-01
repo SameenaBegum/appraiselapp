@@ -34,11 +34,20 @@ const UserModel = {
 
     
 
-    async addComment(UserData){
+    async addComment(email){
         console.log("data-----",UserData)
-        let query=QueryGenerator.insert('technicalaspects',UserData)
+        let query=QueryGenerator.insert('comment',email)
         return database.promise().query(query)
     },
+
+    async emailCheck(email){
+        let query = `select email from users where email = '${email.email}'`;
+        return database.promise().query(query)
+    },
+
+   
+
+  
 
     // async formDetails(Data){
     //     console.log("email1-----",Data)
