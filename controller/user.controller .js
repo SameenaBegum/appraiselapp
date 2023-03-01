@@ -201,10 +201,12 @@ const userController = {
            }
             console.log("data----",Data)
      let [form] = await UserModel.formDetails(Data);
-          console.log("All details---->",form)
-             if(form[0].affectedrows>0){
-               console.log("get------",form)
-               new Response(res)._SuccessResponseWithData("Details Added Successfully",form)
+          //console.log("All details---->",form)
+             if(form.length>0){
+               console.log("get------",form.length)
+              // let formEmail=await UserModal.formEmail(email)
+              // console.log("email-----",formEmail)
+               new Response(res)._SuccessResponseWithData("Details Added Successfully",form[0])
              
              }
              else{

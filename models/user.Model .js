@@ -47,13 +47,18 @@ const UserModel = {
     // },
 
     async formDetails(Data){
-        let query = (`update users set username = "${Data.username}",Designation= "${Data.Designation}",Manager_name = '${Data.Manager_name}',Department='${Data.Department}',Joning_date='${Data.Joning_date}'where email = '${Data.email}'`);
-       console.log(query)
-        database.promise().query(query);
-        let querys = (`select * from users where email =${Data.email}`)
-        return database.promise().query(querys);
         
-     },
+        let query = (`update users set username = "${Data.username}",Designation = "${Data.Designation}",Manager_name = '${Data.Manager_name}',Department='${Data.Department}',Joining_date='${Data.Joining_date}'  where email='${Data.email.email}'`);
+        database.promise().query(query)
+       let querys =QueryGenerator.format (`select * from users where email ='${Data.email.email}'`)
+       return database.promise().query(querys);
+       
+       },
+
+    //  async formEmail(){
+    //     let query = (`select * from users where email ='${Data.email}'`)
+    //     return database.promise().query(query);
+    //  }
 
     
     

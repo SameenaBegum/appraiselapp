@@ -58,3 +58,21 @@
   label: 'appraiselapp',
   timestamp: '2023-03-01T05:40:14.518Z'
 }
+{
+  message: "PREPARING select * from users where email ='[object Object]'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T10:24:44.387Z'
+}
+{
+  message: "PREPARING select * from users where email ='sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T10:25:23.447Z'
+}
+{
+  message: "PREPARING select * from users where email ='sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T10:33:54.599Z'
+}
