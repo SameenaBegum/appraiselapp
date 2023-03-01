@@ -46,3 +46,15 @@
   label: 'appraiselapp',
   timestamp: '2023-02-28T12:50:43.690Z'
 }
+{
+  message: "PREPARING INSERT INTO users (username,Manager_name,Designation,Department,Joining_date) VALUES ('sameena','rajmanickam','software developer','developing','30-05-2022')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T05:40:14.512Z'
+}
+{
+  message: "PREPARING INSERT INTO users (username,Manager_name,Designation,Department,Joining_date) VALUES ('sameena','rajmanickam','software developer','developing','30-05-2022')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T05:40:14.518Z'
+}

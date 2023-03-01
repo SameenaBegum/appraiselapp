@@ -2045,3 +2045,4091 @@
   label: 'appraiselapp',
   timestamp: '2023-02-28T12:17:56.049Z'
 }
+{
+  error: Error: Unknown column 'undefined' in 'where clause'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: "update users set username = 'sameena', Designation = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'   where user_id = undefined",
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'undefined' in 'where clause'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'undefined' in 'where clause'\n" +
+    "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 11:45:12 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15000,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43757568,
+      heapTotal: 20340736,
+      heapUsed: 12590312,
+      external: 2955078,
+      arrayBuffers: 543167
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 603679 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:15:12.588Z'
+}
+{
+  error: Error: Unknown column 'undefined' in 'where clause'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: "update users set username = 'sameena', Designation = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'   where user_id = undefined",
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'undefined' in 'where clause'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'undefined' in 'where clause'\n" +
+    "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 11:46:09 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7092,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43692032,
+      heapTotal: 20340736,
+      heapUsed: 12565440,
+      external: 2955050,
+      arrayBuffers: 543139
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 603735 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:16:09.422Z'
+}
+{
+  error: Error: Unknown column 'undefined' in 'where clause'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: "update users set username = 'sameena', Designation = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'   where email = undefined",
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'undefined' in 'where clause'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'undefined' in 'where clause'\n" +
+    "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 11:47:12 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 11680,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43474944,
+      heapTotal: 20340736,
+      heapUsed: 12822552,
+      external: 2955135,
+      arrayBuffers: 543224
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 603798 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:17:12.324Z'
+}
+{
+  error: Error: Unknown column 'undefined' in 'where clause'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: "update users set username = 'sameena', Designation = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'   where email = undefined",
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'undefined' in 'where clause'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'undefined' in 'where clause'\n" +
+    "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 11:47:32 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9508,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43839488,
+      heapTotal: 20340736,
+      heapUsed: 12568744,
+      external: 2955078,
+      arrayBuffers: 543167
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 603819 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:17:32.856Z'
+}
+{
+  error: Error: Unknown column 'undefined' in 'where clause'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: "update users set username = 'sameena', Designation = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'   where email = undefined",
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'undefined' in 'where clause'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'undefined' in 'where clause'\n" +
+    "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 11:48:17 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9896,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43827200,
+      heapTotal: 20340736,
+      heapUsed: 12570632,
+      external: 2955078,
+      arrayBuffers: 543167
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 603863 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:18:17.446Z'
+}
+{
+  error: Error: Unknown column 'Designation' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: "update users set username = 'sameena', Designation = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'   where email = 'undefined'",
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'Designation' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'Designation' in 'field list'\n" +
+    "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 11:50:41 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15276,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43294720,
+      heapTotal: 20340736,
+      heapUsed: 12812464,
+      external: 2955078,
+      arrayBuffers: 543167
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 604007 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:20:41.050Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: "update users set username = 'sameena',  Designation, = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'   where email = 'undefined'",
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 11:51:54 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13840,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43569152,
+      heapTotal: 20340736,
+      heapUsed: 12577856,
+      external: 2955317,
+      arrayBuffers: 543406
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 604080 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:21:54.350Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: "update users set username = 'sameena',  Designation, = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'   where email = undefined",
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 11:52:42 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 14104,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43479040,
+      heapTotal: 20340736,
+      heapUsed: 12815416,
+      external: 2955260,
+      arrayBuffers: 543349
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 604129 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:22:42.961Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: "update users set username = 'sameena',  Designation, = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'   where email = undefined",
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 11:53:13 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15556,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43880448,
+      heapTotal: 20602880,
+      heapUsed: 12574288,
+      external: 2955260,
+      arrayBuffers: 543349
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 604160 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:23:13.711Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: "update users set username = 'sameena',  Designation, = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'   where email = undefined",
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',J' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 11:54:03 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8340,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43458560,
+      heapTotal: 20340736,
+      heapUsed: 12814272,
+      external: 2955260,
+      arrayBuffers: 543349
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 604209 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:24:03.231Z'
+}
+{
+  error: Error: Unknown column 'undefined' in 'where clause'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: "update users set username = 'sameena',  Designation = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'   where email = undefined",
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'undefined' in 'where clause'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'undefined' in 'where clause'\n" +
+    "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 11:55:44 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 5620,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 44040192,
+      heapTotal: 20340736,
+      heapUsed: 12571528,
+      external: 2955135,
+      arrayBuffers: 543224
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 604311 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:25:44.545Z'
+}
+{
+  error: Error: Unknown column 'undefined' in 'where clause'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: "update users set username = 'sameena',  Designation = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'   where email = undefined",
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'undefined' in 'where clause'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'undefined' in 'where clause'\n" +
+    "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 11:55:58 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 488,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43945984,
+      heapTotal: 20602880,
+      heapUsed: 12652640,
+      external: 2955135,
+      arrayBuffers: 543224
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 604324 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:25:58.201Z'
+}
+{
+  error: Error: Unknown column 'Designation' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: "update users set username = 'sameena',  Designation = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'where email = 'undefined'",
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'Designation' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'Designation' in 'field list'\n" +
+    "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 11:57:21 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13716,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43978752,
+      heapTotal: 20340736,
+      heapUsed: 12617864,
+      external: 2955078,
+      arrayBuffers: 543167
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 604407 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:27:21.400Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''undefined' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: "update users set username = 'sameena',  Designation = 'software developer' ,Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'where email = 'undefined",
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''undefined' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''undefined' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''undefined' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''undefined' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 11:59:55 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10680,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43622400,
+      heapTotal: 20340736,
+      heapUsed: 12640864,
+      external: 2955247,
+      arrayBuffers: 543336
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 604562 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:29:55.878Z'
+}
+{
+  error: Error: Unknown column 'Designation' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: "update users set username = 'sameena',Designation = 'software developer',Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'where email = 'undefined'",
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'Designation' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'Designation' in 'field list'\n" +
+    "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 12:00:51 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 6460,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43692032,
+      heapTotal: 20340736,
+      heapUsed: 12631512,
+      external: 2955135,
+      arrayBuffers: 543224
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 604617 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:30:51.114Z'
+}
+{
+  error: Error: Unknown column 'Designation' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: "update users set username = 'sameena',Designation = 'software developer',Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'where email = 'undefined'",
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'Designation' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'Designation' in 'field list'\n" +
+    "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 12:01:09 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2096,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43933696,
+      heapTotal: 20340736,
+      heapUsed: 12568856,
+      external: 2955050,
+      arrayBuffers: 543139
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 604635 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:31:09.236Z'
+}
+{
+  error: Error: Unknown column 'Designation' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: "update users set username = 'sameena',Designation= 'software developer',Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'where email = 'undefined'",
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'Designation' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'Designation' in 'field list'\n" +
+    "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 12:03:35 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13676,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43524096,
+      heapTotal: 20340736,
+      heapUsed: 12572216,
+      external: 2955135,
+      arrayBuffers: 543224
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 604781 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:33:35.201Z'
+}
+{
+  error: Error: Unknown column 'Designation' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update users set username = "sameena",Designation= "software developer",Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'where email = 'undefined'`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'Designation' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'Designation' in 'field list'\n" +
+    "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 12:09:36 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10940,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43868160,
+      heapTotal: 20340736,
+      heapUsed: 12569712,
+      external: 2955135,
+      arrayBuffers: 543224
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 605143 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:39:36.648Z'
+}
+{
+  error: Error: Unknown column 'Designation' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update users set username = "sameena",Designation= "software developer",Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'where email = 'undefined'`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'Designation' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'Designation' in 'field list'\n" +
+    "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 12:16:38 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 12996,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 36380672,
+      heapTotal: 13262848,
+      heapUsed: 11660872,
+      external: 1379297,
+      arrayBuffers: 340026
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 605564 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:46:38.301Z'
+}
+{
+  error: Error: Unknown column 'Designation' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:51:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update users set username = "sameena",Designation= "software developer",Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'where email = 'undefined'`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'Designation' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'Designation' in 'field list'\n" +
+    "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:51:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:51:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 12:17:18 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9428,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43614208,
+      heapTotal: 20340736,
+      heapUsed: 12815920,
+      external: 2955135,
+      arrayBuffers: 543224
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 605604 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 51,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:47:18.164Z'
+}
+{
+  error: Error: Unknown column 'Designation' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update users set username = "sameena",Designation= "software developer",Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'where email = 'undefined'`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'Designation' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'Designation' in 'field list'\n" +
+    "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 12:19:58 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 11208,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43560960,
+      heapTotal: 20340736,
+      heapUsed: 12587888,
+      external: 2955078,
+      arrayBuffers: 543167
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 605764 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:49:58.218Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5886
+      at Server.setupListenHandle [as _listen2] (node:net:1319:16)
+      at listenInCluster (node:net:1367:12)
+      at Server.listen (node:net:1454:7)
+      at Function.listen (C:\appraisel\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (C:\appraisel\app.js:100:5)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 5886
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5886\n' +
+    'Error: listen EADDRINUSE: address already in use :::5886\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1319:16)\n' +
+    '    at listenInCluster (node:net:1367:12)\n' +
+    '    at Server.listen (node:net:1454:7)\n' +
+    '    at Function.listen (C:\\appraisel\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\app.js:100:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5886\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1319:16)\n' +
+    '    at listenInCluster (node:net:1367:12)\n' +
+    '    at Server.listen (node:net:1454:7)\n' +
+    '    at Function.listen (C:\\appraisel\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\app.js:100:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)',
+  exception: true,
+  date: 'Wed Mar 01 2023 12:21:33 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 6772,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 41107456,
+      heapTotal: 19030016,
+      heapUsed: 12654088,
+      external: 2538453,
+      arrayBuffers: 300875
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 605859 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1319,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1367,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 1454,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\application.js',
+      function: 'Function.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\app.js',
+      function: null,
+      line: 100,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 79,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:51:33.496Z'
+}
+{
+  error: Error: Unknown column 'undefined' in 'where clause'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update users set username = "sameena",Designation= "software developer",Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'where email = undefined`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'undefined' in 'where clause'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'undefined' in 'where clause'\n" +
+    "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 12:22:01 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15584,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43417600,
+      heapTotal: 20340736,
+      heapUsed: 12806952,
+      external: 2955050,
+      arrayBuffers: 543139
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 605888 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:52:01.592Z'
+}
+{
+  error: Error: Unknown column 'undefined' in 'where clause'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update users set username = "sameena",Designation= "software developer",Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'where email = undefined`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'undefined' in 'where clause'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'undefined' in 'where clause'\n" +
+    "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 12:24:34 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 14668,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43425792,
+      heapTotal: 20340736,
+      heapUsed: 12727304,
+      external: 2955170,
+      arrayBuffers: 543259
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 606040 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:54:34.469Z'
+}
+{
+  error: Error: Unknown column 'undefined' in 'where clause'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update users set username = "sameena",Designation= "software developer",Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'where email = undefined`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'undefined' in 'where clause'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'undefined' in 'where clause'\n" +
+    "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'undefined' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 12:26:16 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 4392,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43778048,
+      heapTotal: 20340736,
+      heapUsed: 12583368,
+      external: 2955116,
+      arrayBuffers: 543205
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 606142 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:56:16.513Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update users set username = "sameena",Designation= "software developer",Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'where email = [object Object]`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 12:28:07 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13168,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43622400,
+      heapTotal: 20602880,
+      heapUsed: 12579536,
+      external: 2955239,
+      arrayBuffers: 543322
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 606253 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T06:58:07.137Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update users set username = "sameena",Designation= "software developer",Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'where email = [object Object]`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 12:30:44 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 6904,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43462656,
+      heapTotal: 20340736,
+      heapUsed: 12825112,
+      external: 2955410,
+      arrayBuffers: 543493
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 606410 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T07:00:44.246Z'
+}
+{
+  error: Error: Unknown column 'Designation' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:52:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:203:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update users set username = "sameena",Designation= "software developer",Manager_name = 'rajmanickam',Department='developing',Joning_date='undefined'where email = '[object Object]'`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'Designation' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'Designation' in 'field list'\n" +
+    "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'Designation' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:52:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:203:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 01 2023 12:34:40 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2956,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43794432,
+      heapTotal: 20340736,
+      heapUsed: 12581400,
+      external: 2955293,
+      arrayBuffers: 543376
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 606647 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 52,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 203,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-01T07:04:40.950Z'
+}

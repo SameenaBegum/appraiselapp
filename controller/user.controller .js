@@ -181,6 +181,7 @@ const userController = {
         console.log('working')
          try{
 
+          let email=req.query
             let{
           username,
           Manager_name,
@@ -191,6 +192,7 @@ const userController = {
        }=req.body;
             console.log("working1")
             var Data={
+              email,
               username,
               Manager_name,
               Designation,

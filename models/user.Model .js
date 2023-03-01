@@ -1,6 +1,7 @@
 //const database = require("../utils/database")
 
 //const { formDetails } = require("../controller/user.controller ");
+const { formDetails } = require("../controller/user.controller ");
 const QueryGenerator = require("../generators/query.generator")
 const database = require("../utils/database")
 const UserModel = {
@@ -22,12 +23,12 @@ const UserModel = {
     },
 
     async gettechnical (){
-        let query = (`select id, Kra ,Measures from technicalaspects `)
+        let query = (`select id, Kra ,Measures,Kra_id from technicalaspects `)
         return database.promise().query(query)
     },
 
     async getSoftSkill (){
-        let query = (`select id, Kra ,Measures from softskillsaspects `)
+        let query = (`select id, Kra ,Measures,Kra_id from softskillsaspects `)
         return database.promise().query(query)
     },
 
@@ -39,11 +40,20 @@ const UserModel = {
         return database.promise().query(query)
     },
 
+    // async formDetails(Data){
+    //     console.log("email1-----",Data)
+    //     let query=QueryGenerator.insert('users',Data)
+    //     return database.promise().query(query)
+    // },
+
     async formDetails(Data){
-        console.log("email1-----",Data)
-        let query=QueryGenerator.insert('users',Data)
-        return database.promise().query(query)
-    },
+        let query = (`update users set username = "${Data.username}",Designation= "${Data.Designation}",Manager_name = '${Data.Manager_name}',Department='${Data.Department}',Joning_date='${Data.Joning_date}'where email = '${Data.email}'`);
+       console.log(query)
+        database.promise().query(query);
+        let querys = (`select * from users where email =${Data.email}`)
+        return database.promise().query(querys);
+        
+     },
 
     
     
