@@ -23,27 +23,35 @@ const UserModel = {
     },
 
     async gettechnical (){
-        let query = (`select id, Kra ,Measures,Kra_id from technicalaspects `)
+        
+        let query = (`select t_id, kra, measures,kra_id from technicalaspects  where type='T'`)
         return database.promise().query(query)
     },
 
     async getSoftSkill (){
-        let query = (`select id, Kra ,Measures,Kra_id from softskillsaspects `)
+        let query = (`select t_id, kra, measures, kra_id from technicalaspects  where type ='S'`)
         return database.promise().query(query)
     },
 
     
 
-    async addComment(email){
+    async addComment(UserData){
         console.log("data-----",UserData)
-        let query=QueryGenerator.insert('comment',email)
+        let query=QueryGenerator.insert('comment ' ,UserData)
+         return database.promise().query(query)
+    },
+    async getComment(UserData){
+        console.log("dd--------",UserData.email)
+        let query = (`select * from comment a
+        left join technicalaspects b on a.t_id = b.t_id
+         where email= '${UserData.email}' `)
         return database.promise().query(query)
     },
 
     async emailCheck(email){
-        let query = `select email from users where email = '${email.email}'`;
+        let query = `select email from users where email = '${email}'`;
         return database.promise().query(query)
-    },
+    },                                          
 
    
 
@@ -57,7 +65,7 @@ const UserModel = {
 
     async formDetails(Data){
         
-        let query = (`update users set username = "${Data.username}",Designation = "${Data.Designation}",Manager_name = '${Data.Manager_name}',Department='${Data.Department}',Joining_date='${Data.Joining_date}'  where email='${Data.email.email}'`);
+        let query = (`update users set username = "${Data.username}",designation = "${Data.designation}",manager_name = '${Data.manager_name}',department='${Data.department}',joining_date='${Data.joining_date}'  where email='${Data.email.email}'`);
         database.promise().query(query)
        let querys =QueryGenerator.format (`select * from users where email ='${Data.email.email}'`)
        return database.promise().query(querys);

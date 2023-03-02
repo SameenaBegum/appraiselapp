@@ -150,31 +150,47 @@ const userController = {
        async addComment(req,res) {
         console.log('working')
          try{
-           let email =req.query
+           let email =req.query.email
             let{
+              t_id,
           self_rating,
           self_comment,
           manager_rating,
-          manager_comment
+          manager_comment,
+          self_aspirations,
+          teamlead_feedback	,
+          employee_self_rating,
+          manager_consolidated_rating
           }=req.body;
             console.log("working1")
             var UserData={
+              t_id,
               self_rating,
               self_comment,
               manager_rating,
-              manager_comment
+              manager_comment,
+              self_aspirations,
+              teamlead_feedback,
+              employee_self_rating,	
+              manager_consolidated_rating,
+              email
                }
                
         let [emailcheck] = await UserModel.emailCheck(email);
-        console.log("zzzzzzzz------",emailcheck)
-            
-     let [comments] = await UserModel.addComment(email);
+        
+          if(emailcheck.length>0){
+     let [comments] = await UserModel.addComment(UserData);
           console.log("All details---->",comments)
-             if(comments.affectedrows>0){
+          
+             if(comments.affectedRows>0){
                console.log("get------",comments)
-               new Response(res)._SuccessResponseWithData("Comments Added Successfully",comments[0])
-             
+               let getComments=await UserModel.getComment(UserData)
+               if(getComments.length>0){
+                console.log("getcomments-----",getComments)
+               new Response(res)._SuccessResponseWithData("Comments Added Successfully",getComments[0])
              }
+        }
+      }
              else{
                new Response(res)._ErrorMessage("Data Not Found")
              }
@@ -192,20 +208,20 @@ const userController = {
           let email=req.query
             let{
           username,
-          Manager_name,
-          Designation,
-          Department,
-          Joining_date,
-          Review_period
+          manager_name,
+          designation,
+          department,
+          joining_date,
+          review_period
        }=req.body;
             console.log("working1")
             var Data={
               email,
               username,
-              Manager_name,
-              Designation,
-              Department,
-              Joining_date,
+              manager_name,
+              designation,
+              department,
+              joining_date,
            }
             console.log("data----",Data)
      let [form] = await UserModel.formDetails(Data);
