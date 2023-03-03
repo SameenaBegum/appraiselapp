@@ -2,6 +2,9 @@ var express = require('express');
 
 var userController=require('../controller/user.controller ')
 
+//var auth =require('../utils/auth.js')
+
+
 var router = express.Router();
 
 
@@ -11,7 +14,7 @@ router.post('/register',userController.Login)
 
 //----------------get technical details-------------//
 
-router.get('/getDetails',userController.getTechnical);
+router.get('/getDetails', userController.getTechnical);
 
 //-------------get soft details--------------//
 

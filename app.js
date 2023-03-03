@@ -2,6 +2,8 @@ const express = require("express");
 //const morgan = require('morgan');
 var indexRouter = require('./routes/index.routes');
 const cors = require('cors');
+
+var jwt = require('jsonwebtoken');
 //var cookieParser = require('cookie-parser');
 //const passport = require('passport')
 
@@ -37,7 +39,9 @@ app.use((req,res,next)=>{
     next();
 
 });
-
+//--------------for jwt-----------//
+// var token = jwt.sign({ email: email },
+// process.env.Secret_Key)
 
 
 

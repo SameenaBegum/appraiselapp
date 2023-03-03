@@ -4,6 +4,16 @@ const { Message } = require("../utils/messages");
 const Response = require("../utils/response");
 const { StatusCodes } = require("http-status-codes");
 const UserModel = require('../models/user.Model ');
+var jwt = require('jsonwebtoken');
+
+
+
+//var auth=require('../utils/auth.js')
+
+
+
+
+
 
 
 const userController = {
@@ -23,18 +33,19 @@ const userController = {
          console.log("Userdata------",valid_email)
          if(valid_email.length > 0){
 
-            // let payload ={
-            //     "user_id":get_valid_email[0].user_id,
-            //     "full_name":get_valid_email[0].full_name,
-            //     "email":get_valid_email[0].email,
-            //     "role_id":get_valid_email[0].role_id
-            // }
-            // let options = { expiresIn: process.env.JWT_EXPIRE_TIME, issuer : process.env.JWT_ISSUER };
-            // let secret = process.env.JWT_SECRET;
-            // let token = jwt.sign(payload, secret, options)
+
+        
+             let payload ={
+
+              "email":email,
+             // "email":valid_email.length[0].email,
+            }
+             let options = { expiresIn: process.env.Expire_Time};
+             let secret = process.env. Secret_Key;
+             let token = jwt.sign(payload, secret, options)
             
                    
-                  new Response(res)._SuccessResponse("Login Successfull...!")
+                  new Response(res)._SuccessResponse("Login Successfull...!",valid_email[0].email,token)
                   
                  }
                  else{
@@ -151,6 +162,9 @@ const userController = {
         console.log('working')
          try{
            let email =req.query.email
+            
+          let comment = req.body;
+          for(let i=0; i<comment.length; i++){
             let{
               t_id,
           self_rating,
@@ -161,8 +175,9 @@ const userController = {
           teamlead_feedback	,
           employee_self_rating,
           manager_consolidated_rating
-          }=req.body;
-            console.log("working1")
+          }=comment[i];
+
+          console.log("working1")
             var UserData={
               t_id,
               self_rating,
@@ -175,12 +190,14 @@ const userController = {
               manager_consolidated_rating,
               email
                }
-               
+             console.log("userdata-------",UserData)  
         let [emailcheck] = await UserModel.emailCheck(email);
-        
-          if(emailcheck.length>0){
-     let [comments] = await UserModel.addComment(UserData);
-          console.log("All details---->",comments)
+            if(emailcheck.length>0){
+                if(t_id==t_id)
+              
+     //let [comments] = await UserModel.addComment(UserData);
+     if(i===comment.length -1){
+      console.log("All details---->",comments)
           
              if(comments.affectedRows>0){
                console.log("get------",comments)
@@ -190,10 +207,17 @@ const userController = {
                new Response(res)._SuccessResponseWithData("Comments Added Successfully",getComments[0])
              }
         }
+
+     }
+
+          }
+          else{
+            new Response(res)._ErrorMessage("Data Not Found")
+          }
+            
+          
       }
-             else{
-               new Response(res)._ErrorMessage("Data Not Found")
-             }
+             
          }
          catch(err){
              
@@ -201,7 +225,7 @@ const userController = {
        },
 
 
-       async formDetails(req,res) {
+       async  formDetails(req,res) {
         console.log('working')
          try{
 
