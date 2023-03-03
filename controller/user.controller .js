@@ -193,9 +193,9 @@ const userController = {
              console.log("userdata-------",UserData)  
         let [emailcheck] = await UserModel.emailCheck(email);
             if(emailcheck.length>0){
-                if(t_id==t_id)
+               // if(t_id==t_id)
               
-     //let [comments] = await UserModel.addComment(UserData);
+     let [comments] = await UserModel.addComment(UserData);
      if(i===comment.length -1){
       console.log("All details---->",comments)
           
