@@ -190,38 +190,29 @@ const userController = {
               manager_consolidated_rating,
               email
                }
-             console.log("userdata-------",UserData)  
-        let [emailcheck] = await UserModel.emailCheck(email);
-            if(emailcheck.length>0){
-               // if(t_id==t_id)
-              
+            let [emailcheck] = await UserModel.emailCheck(email);
+                 if(emailcheck.length>0){
+             let [questionCheck]=await UserModel.questionCheck(email)
+
+             const checkQuestion = questionCheck.find(obj => obj.t_id == t_id);
+                   if(checkQuestion=== undefined){
+                       if(i===comment.length -1){
      let [comments] = await UserModel.addComment(UserData);
-     if(i===comment.length -1){
-      console.log("All details---->",comments)
-          
-             if(comments.affectedRows>0){
-               console.log("get------",comments)
-               let getComments=await UserModel.getComment(UserData)
+           if(comments.affectedRows>0){
+      let getComments=await UserModel.getComment(UserData)
                if(getComments.length>0){
-                console.log("getcomments-----",getComments)
-               new Response(res)._SuccessResponseWithData("Comments Added Successfully",getComments[0])
+                new Response(res)._SuccessResponseWithData("Comments Added Successfully",getComments[0])
              }
         }
-
-     }
-
-          }
-          else{
-            new Response(res)._ErrorMessage("Data Not Found")
-          }
-            
-          
       }
-             
-         }
-         catch(err){
-             
-         }
+      }else{
+          new Response(res)._ErrorMessage("Already answered the question")
+              }
+       } 
+     }
+              }
+              catch(err){
+             }
        },
 
 

@@ -48,6 +48,27 @@ const UserModel = {
         return database.promise().query(query)
     },
 
+    async questionCheck(email){
+    console.log("qqqqqqq----",email)
+        let query = (`select t_id from comment where email= '${email}' `)
+        return database.promise().query(query)
+    },
+
+    
+    
+
+    async updateComment(UserData){
+        
+        let query = (`update comment set self_rating = "${UserData.self_rating}",self_comment = "${UserData.self_comment}",
+        manager_rating = '${UserData.manager_rating}',manager_comment='${UserData.manager_comment}',
+        self_aspirations='${UserData.self_aspirations}' ,teamlead_feedback='${UserData.teamlead_feedback}',
+        employee_self_rating='${UserData.employee_self_rating}',manager_consolidated_rating='${UserData.manager_consolidated_rating}'
+         where email='${UserData.email.email}'`);
+       return database.promise().query(query)
+       
+       
+       },
+
     async emailCheck(email){
         let query = `select email from users where email = '${email}'`;
         return database.promise().query(query)

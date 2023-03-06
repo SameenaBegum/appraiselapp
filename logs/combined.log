@@ -766,3 +766,519 @@
   label: 'appraiselapp',
   timestamp: '2023-03-03T12:20:36.438Z'
 }
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'wwwssssww',1,'wwsssssssswww','wwwwwssssww','wwwssswwwwww','wwssswwwwww','wwssssswwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-04T07:13:40.453Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'wwwssssww',1,'wwsssssssswww','wwwwwssssww','wwwssswwwwww','wwssswwwwww','wwssssswwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-04T07:13:40.480Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'wwwww',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-04T07:14:47.925Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'wwwww',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-04T07:14:47.926Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'wwwww',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-04T07:15:52.597Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'wwwww',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-04T07:15:52.600Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'wwwww',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-04T07:16:25.432Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'wwwww',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-04T07:16:25.450Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-04T07:19:00.639Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-04T07:19:00.653Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-04T07:20:31.907Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-04T07:20:31.923Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-04T07:23:43.462Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-04T07:23:43.470Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-04T07:24:50.709Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-04T07:24:50.718Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:14:18.283Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:14:18.301Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:31:28.091Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:31:28.099Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:31:46.322Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:31:46.326Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:35:29.269Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:35:29.284Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:35:35.035Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:35:35.036Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('7',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:44:09.642Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('7',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:44:09.658Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('7',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:44:21.698Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('7',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:44:21.699Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:51:02.828Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:51:02.833Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:54:49.062Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:54:49.076Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:56:13.430Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T05:56:13.440Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:05:51.998Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:05:52.003Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:07:43.117Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:07:43.124Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:11:30.658Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:11:30.668Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:12:11.070Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:12:11.077Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:19:42.115Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:19:42.132Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:20:30.995Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:20:31.007Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:21:21.930Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:21:21.934Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:23:45.389Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:23:45.395Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:25:06.574Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:25:06.580Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:25:47.551Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:25:47.557Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:31:45.394Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:31:45.407Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:32:51.758Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:32:51.765Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:34:59.904Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:34:59.917Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:38:45.451Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:38:45.455Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:39:46.840Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T06:39:46.845Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T07:12:39.169Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T07:12:39.177Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T07:12:53.873Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T07:12:53.880Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T07:14:08.976Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T07:14:08.977Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T07:14:12.295Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T07:14:12.297Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T07:14:13.610Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T07:14:13.611Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T07:14:48.079Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T07:14:48.086Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T07:21:28.961Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T07:21:28.965Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T08:09:03.968Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T08:09:03.973Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T08:28:40.770Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T08:28:40.773Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T08:29:09.343Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,teamlead_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2',2,'w',1,'wwwww','wwwwwww','wwwwwwwww','wwwwwwww','wwwwwww','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-06T08:29:09.344Z'
+}
