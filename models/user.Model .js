@@ -24,7 +24,7 @@ const UserModel = {
 
     async gettechnical (){
         
-        let query = (`select t_id, kra, measures,kra_id from technicalaspects  where type='T'`)
+        let query = (`select t_id, kra, measures,kra_id from technicalaspects `)
         return database.promise().query(query)
     },
 
@@ -49,7 +49,7 @@ const UserModel = {
     },
 
     async questionCheck(email){
-    console.log("qqqqqqq----",email)
+    
         let query = (`select t_id from comment where email= '${email}' `)
         return database.promise().query(query)
     },
@@ -57,32 +57,12 @@ const UserModel = {
     
     
 
-    async updateComment(UserData){
-        
-        let query = (`update comment set self_rating = "${UserData.self_rating}",self_comment = "${UserData.self_comment}",
-        manager_rating = '${UserData.manager_rating}',manager_comment='${UserData.manager_comment}',
-        self_aspirations='${UserData.self_aspirations}' ,teamlead_feedback='${UserData.teamlead_feedback}',
-        employee_self_rating='${UserData.employee_self_rating}',manager_consolidated_rating='${UserData.manager_consolidated_rating}'
-         where email='${UserData.email.email}'`);
-       return database.promise().query(query)
-       
-       
-       },
+   
 
     async emailCheck(email){
         let query = `select email from users where email = '${email}'`;
         return database.promise().query(query)
     },                                          
-
-   
-
-  
-
-    // async formDetails(Data){
-    //     console.log("email1-----",Data)
-    //     let query=QueryGenerator.insert('users',Data)
-    //     return database.promise().query(query)
-    // },
 
     async formDetails(Data){
         
@@ -93,10 +73,15 @@ const UserModel = {
        
        },
 
-    //  async formEmail(){
-    //     let query = (`select * from users where email ='${Data.email}'`)
-    //     return database.promise().query(query);
-    //  }
+    //    async get_self_rating(con_email){
+    //     console.log("wwwwwwww--------",con_email)
+    //     let query = (`select self_rating from comment where email= '${con_email}' `)
+    //     return database.promise().query(query)
+    //     }
+    
+       
+
+    
 
     
     

@@ -256,6 +256,20 @@ const userController = {
              
          }
        },
+      //  async consolidate(req,res){
+      //   console.log("working")
+
+      //   try{
+      //   let con_email=req.query
+      //   console.log("qqqqqqqqq--------",con_email)
+      //   let consolidate_self_rating=await UserModel.get_self_rating(con_email)
+      //   console.log("1111-------",consolidate_self_rating[1])
+      //   }catch(err){
+      //     console.log(err)
+      //   }
+      //  }
+
+       
 
 
        

@@ -28,6 +28,10 @@ router.post('/AddComment',userController.addComment);
 
 router.put('/FormDetails',userController.formDetails);
 
+//------------consolidate rating------------//
+
+//router.get('/Consolidate',userController.consolidate);
+
 
 
 
