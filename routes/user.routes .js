@@ -30,7 +30,20 @@ router.put('/FormDetails',userController.formDetails);
 
 //------------consolidate rating------------//
 
-//router.get('/Consolidate',userController.consolidate);
+router.get('/Consolidate',userController.consolidate);
+
+//-------------adminlogin--------------//
+
+router.post('/adminLogin',userController.LoginUser);
+
+//-----------------appraisal window-----------//
+
+router.get('/appraisalWindow',userController.appraisalWindow);
+
+
+
+
+
 
 
 

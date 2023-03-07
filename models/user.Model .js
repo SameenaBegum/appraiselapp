@@ -1,7 +1,7 @@
 //const database = require("../utils/database")
 
 //const { formDetails } = require("../controller/user.controller ");
-const { formDetails } = require("../controller/user.controller ");
+const { formDetails, appraisalWindow } = require("../controller/user.controller ");
 const QueryGenerator = require("../generators/query.generator")
 const database = require("../utils/database")
 const UserModel = {
@@ -73,11 +73,23 @@ const UserModel = {
        
        },
 
-    //    async get_self_rating(con_email){
-    //     console.log("wwwwwwww--------",con_email)
-    //     let query = (`select self_rating from comment where email= '${con_email}' `)
-    //     return database.promise().query(query)
-    //     }
+       async get_self_rating(con_email){
+        let query = (`select avg(self_rating )as self_rating,avg(manager_rating)as manager_rating from comment where email="${con_email.email}"`)
+        return database.promise().query(query)
+        },
+        async LoginUser(UserData){
+            console.log("email---------",UserData.email)
+            let query = `select email,password from  users where email= '${UserData.email}'`;
+            return database.promise().query(query)
+           
+        },
+
+        async appraisalWindow(){
+            let query = (`select * from flag order by flag_id desc LIMIT 1`)
+            return database.promise().query(query)
+            },
+
+        
     
        
 

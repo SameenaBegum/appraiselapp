@@ -256,18 +256,89 @@ const userController = {
              
          }
        },
-      //  async consolidate(req,res){
-      //   console.log("working")
+       async consolidate(req,res){
+        console.log("working")
 
-      //   try{
-      //   let con_email=req.query
-      //   console.log("qqqqqqqqq--------",con_email)
-      //   let consolidate_self_rating=await UserModel.get_self_rating(con_email)
-      //   console.log("1111-------",consolidate_self_rating[1])
-      //   }catch(err){
-      //     console.log(err)
-      //   }
-      //  }
+        try{
+        let con_email=req.query
+        
+        let [consolidate_self_rating]=await UserModel.get_self_rating(con_email)
+        console.log("1111-------",consolidate_self_rating)
+        if(consolidate_self_rating.length>0){
+          new Response(res)._SuccessResponseWithData("Ratings Fetched Successfully",consolidate_self_rating[0])
+
+        }else{
+          new Response(res)._ErrorMessage("Ratings Not Found")
+
+        }
+       }catch(err){
+           console.log(err)
+        }
+       },
+
+       async LoginUser(req,res){
+      try{
+       let{
+             email ,
+             password 
+        }=req.body;
+         var UserData= {
+          email,password
+        };
+        console.log("data---",UserData)
+        let [get_valid_email]=await UserModel.LoginUser(UserData)
+        console.log('get_valid_email--->',get_valid_email)
+      
+        if(get_valid_email.length>0){
+          console.log("emaillllll--------",get_valid_email.length)
+          if(get_valid_email[0].password==UserData.password){
+            console.log("User-------",UserData.password)
+              // let payload ={
+              //     "email":get_valid_email[0][0].email,
+              //     "full_name":get_valid_email[0][0].full_name  
+              //   }
+              //   let options = { expiresIn: process.env.JWT_EXPIRE_TIME, issuer : process.env.JWT_ISSUER };
+              //   let secret = process.env.JWT_SECRET;
+               // let token = jwt.sign(payload, secret, options)
+
+             
+               new Response(res)._SuccessResponse("Login Successfull...!",get_valid_email[0])
+        }
+        else{
+          new Response(res)._ErrorMessage("Password is Mismatch")
+          console.log("Password is Mismatch")
+        }
+           }
+        else{
+          new Response(res)._ErrorMessage("Please enter the correct email")
+console.log('Please enter the correct email...!')
+        }
+       }
+        catch(err){
+
+         }
+        },
+
+        async appraisalWindow(req,res){
+          console.log("working")
+  
+          try{
+          
+          
+          let [appraisal_window]=await UserModel.appraisalWindow()
+          console.log("qqqqqq-------",appraisal_window)
+          if(appraisal_window.length>0){
+            new Response(res)._SuccessResponseWithData("Flags Fetched Successfully",appraisal_window[0])
+  
+          }else{
+            new Response(res)._ErrorMessage("Flags Not Found")
+  
+          }
+         }catch(err){
+             console.log(err)
+          }
+         },
+  
 
        
 
