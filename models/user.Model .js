@@ -53,20 +53,24 @@ const UserModel = {
         let query = (`select t_id from comment where email= '${email}' `)
         return database.promise().query(query)
     },
-
-    
-    
-
-   
-
     async emailCheck(email){
         let query = `select email from users where email = '${email}'`;
         return database.promise().query(query)
-    },                                          
+    },
+    
+    async updateComment(UserData){
+        let query = (`update comment set  manager_rating = "${UserData. manager_rating}", manager_comment = "${UserData. manager_comment}", manager_feedback = '${UserData. manager_feedback}', manager_consolidated_rating='${UserData. manager_consolidated_rating}'  where email='${UserData.email}'`);
+        database.promise().query(query)
+       let querys =QueryGenerator.format (`select  * from comment a
+       left join technicalaspects b on a.t_id = b.t_id
+        where email= '${UserData.email}'`)
+       return database.promise().query(querys);
+
+    },
 
     async formDetails(Data){
         
-        let query = (`update users set username = "${Data.username}",designation = "${Data.designation}",manager_name = '${Data.manager_name}',department='${Data.department}',joining_date='${Data.joining_date}'  where email='${Data.email.email}'`);
+        let query = (`update users set username = "${Data.username}",designation = "${Data.designation}",manager_name = '${Data.manager_name}',department='${Data.department}',joining_date='${Data.joining_date}',role_id='${Data.role_id}'  where email='${Data.email.email}'`);
         database.promise().query(query)
        let querys =QueryGenerator.format (`select * from users where email ='${Data.email.email}'`)
        return database.promise().query(querys);

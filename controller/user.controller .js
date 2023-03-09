@@ -172,7 +172,7 @@ const userController = {
           manager_rating,
           manager_comment,
           self_aspirations,
-          teamlead_feedback	,
+          manager_feedback	,
           employee_self_rating,
           manager_consolidated_rating
           }=comment[i];
@@ -185,7 +185,7 @@ const userController = {
               manager_rating,
               manager_comment,
               self_aspirations,
-              teamlead_feedback,
+              manager_feedback,
               employee_self_rating,	
               manager_consolidated_rating,
               email
@@ -206,7 +206,14 @@ const userController = {
         }
       }
       }else{
-          new Response(res)._ErrorMessage("Already answered the question")
+         let [updatecomment]=await UserModel.updateComment(UserData)
+         console.log("update-------",updatecomment)
+         if(updatecomment.length>0){
+          console.log("updateeeeee-------",updatecomment)
+          new Response(res)._SuccessResponseWithData("Comments updated Successfully",updatecomment[0])
+          
+
+         }
               }
        } 
      }
@@ -226,6 +233,7 @@ const userController = {
           manager_name,
           designation,
           department,
+          role_id,
           joining_date,
           review_period
        }=req.body;
@@ -236,6 +244,7 @@ const userController = {
               manager_name,
               designation,
               department,
+              role_id,
               joining_date,
            }
             console.log("data----",Data)

@@ -26355,3 +26355,729 @@
   label: 'appraiselapp',
   timestamp: '2023-03-07T10:03:39.872Z'
 }
+{
+  error: ReferenceError: auuserController is not defined
+      at Object.<anonymous> (C:\appraisel\routes\user.routes .js:29:27)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\routes\index.routes.js:7:18)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10),
+  level: 'error',
+  message: 'uncaughtException: auuserController is not defined\n' +
+    'ReferenceError: auuserController is not defined\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:29:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)',
+  stack: 'ReferenceError: auuserController is not defined\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:29:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)',
+  exception: true,
+  date: 'Wed Mar 08 2023 10:11:01 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 3892,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43491328,
+      heapTotal: 21151744,
+      heapUsed: 14910912,
+      external: 960322,
+      arrayBuffers: 156446
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1202826 },
+  trace: [
+    {
+      column: 27,
+      file: 'C:\\appraisel\\routes\\user.routes .js',
+      function: null,
+      line: 29,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-08T04:41:01.889Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'formDetails')
+      at Object.<anonymous> (C:\appraisel\routes\user.routes .js:29:47)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\routes\index.routes.js:7:18)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'formDetails')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'formDetails')\n" +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:29:47)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'formDetails')\n" +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:29:47)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)',
+  exception: true,
+  date: 'Wed Mar 08 2023 10:11:04 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8508,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43524096,
+      heapTotal: 21151744,
+      heapUsed: 14977112,
+      external: 960322,
+      arrayBuffers: 156446
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1202828 },
+  trace: [
+    {
+      column: 47,
+      file: 'C:\\appraisel\\routes\\user.routes .js',
+      function: null,
+      line: 29,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-08T04:41:04.338Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'formDetails')
+      at Object.<anonymous> (C:\appraisel\routes\user.routes .js:29:60)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\routes\index.routes.js:7:18)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'formDetails')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'formDetails')\n" +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:29:60)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'formDetails')\n" +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:29:60)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)',
+  exception: true,
+  date: 'Wed Mar 08 2023 10:11:07 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2908,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43491328,
+      heapTotal: 21413888,
+      heapUsed: 15008112,
+      external: 960322,
+      arrayBuffers: 156446
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1202831 },
+  trace: [
+    {
+      column: 60,
+      file: 'C:\\appraisel\\routes\\user.routes .js',
+      function: null,
+      line: 29,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-08T04:41:07.322Z'
+}
+{
+  error: Error: Data truncated for column 'role_id' at row 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.formDetails (C:\appraisel\models\user.Model .js:70:28)
+      at formDetails (C:\appraisel\controller\user.controller .js:242:35)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_WARN_DATA_TRUNCATED',
+    errno: 1265,
+    sql: `update users set username = "SameenaBegum",designation = "software developer",manager_name = 'Raja Manickam',department='developingggg',joining_date='30-05-2022',role_id='undefined'  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '01000',
+    sqlMessage: "Data truncated for column 'role_id' at row 1"
+  },
+  level: 'error',
+  message: "uncaughtException: Data truncated for column 'role_id' at row 1\n" +
+    "Error: Data truncated for column 'role_id' at row 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:70:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:242:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Data truncated for column 'role_id' at row 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.formDetails (C:\\appraisel\\models\\user.Model .js:70:28)\n' +
+    '    at formDetails (C:\\appraisel\\controller\\user.controller .js:242:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 08 2023 18:50:25 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8428,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 39059456,
+      heapTotal: 15384576,
+      heapUsed: 13501824,
+      external: 1393663,
+      arrayBuffers: 349083
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1233990 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.formDetails',
+      line: 70,
+      method: 'formDetails',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'formDetails',
+      line: 242,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-08T13:20:26.011Z'
+}
+{
+  error: Error: Unknown column 'manager_feedback' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:63:28)
+      at addComment (C:\appraisel\controller\user.controller .js:209:44)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update comment set  manager_rating = "wwww", manager_comment = "wwww", manager_feedback = 'undefined', manager_consolidated_rating='wwwwwww'  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'manager_feedback' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'manager_feedback' in 'field list'\n" +
+    "Error: Unknown column 'manager_feedback' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:63:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:209:44)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: Unknown column 'manager_feedback' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:63:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:209:44)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Thu Mar 09 2023 10:18:54 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 3724,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 38797312,
+      heapTotal: 14598144,
+      heapUsed: 13157288,
+      external: 1379040,
+      arrayBuffers: 340075
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1289698 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 63,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 44,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 209,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-09T04:48:54.493Z'
+}
+{
+  error: Error: Unknown column 'manager_feedback' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:63:28)
+      at addComment (C:\appraisel\controller\user.controller .js:209:44)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update comment set  manager_rating = "wwww", manager_comment = "wwww", manager_feedback = 'wwwwww', manager_consolidated_rating='wwwwwww'  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'manager_feedback' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'manager_feedback' in 'field list'\n" +
+    "Error: Unknown column 'manager_feedback' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:63:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:209:44)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: Unknown column 'manager_feedback' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:63:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:209:44)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Thu Mar 09 2023 10:20:04 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13728,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 38416384,
+      heapTotal: 14598144,
+      heapUsed: 13288216,
+      external: 1379038,
+      arrayBuffers: 349464
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1289768 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 63,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 44,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 209,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-09T04:50:04.421Z'
+}
