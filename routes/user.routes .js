@@ -40,6 +40,11 @@ router.post('/adminLogin',userController.LoginUser);
 
 router.get('/appraisalWindow',userController.appraisalWindow);
 
+//---------------usernames------------//
+
+router.get('/userNames', userController.userNames);
+
+
 
 
 

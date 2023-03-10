@@ -369,6 +369,28 @@ console.log('Please enter the correct email...!')
              console.log(err)
           }
          },
+
+         async userNames(req,res){
+          try{
+            console.log("working")
+
+            let user_names=await UserModel.userNames()
+            console.log("names-----",user_names)
+            if(user_names.length>0){
+              new Response(res)._SuccessResponseWithData("Users Fetched Successfully",user_names[0])
+
+            }else{
+
+              new Response(res)._ErrorMessage("User Data  Not Found")
+            
+
+            }
+
+          }catch(err){
+
+          }
+          
+         }
   
 
        

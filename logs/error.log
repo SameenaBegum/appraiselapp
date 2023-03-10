@@ -27081,3 +27081,423 @@
   label: 'appraiselapp',
   timestamp: '2023-03-09T04:50:04.421Z'
 }
+{
+  error: ReferenceError: working is not defined
+      at userNames (C:\appraisel\controller\user.controller .js:374:23)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10)
+      at Function.handle (C:\appraisel\node_modules\express\lib\router\index.js:175:3)
+      at router (C:\appraisel\node_modules\express\lib\router\index.js:47:12),
+  level: 'error',
+  message: 'uncaughtException: working is not defined\n' +
+    'ReferenceError: working is not defined\n' +
+    '    at userNames (C:\\appraisel\\controller\\user.controller .js:374:23)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  stack: 'ReferenceError: working is not defined\n' +
+    '    at userNames (C:\\appraisel\\controller\\user.controller .js:374:23)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)\n' +
+    '    at Function.handle (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:175:3)\n' +
+    '    at router (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:47:12)',
+  exception: true,
+  date: 'Fri Mar 10 2023 15:47:43 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 1540,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 34910208,
+      heapTotal: 13287424,
+      heapUsed: 11403608,
+      external: 959976,
+      arrayBuffers: 139338
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1395828 },
+  trace: [
+    {
+      column: 23,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'userNames',
+      line: 374,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 175,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-10T10:17:43.868Z'
+}
+{
+  error: ReferenceError: async is not defined
+      at Object.<anonymous> (C:\appraisel\models\user.Model .js:96:13)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\controller\user.controller .js:2:15)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10),
+  level: 'error',
+  message: 'uncaughtException: async is not defined\n' +
+    'ReferenceError: async is not defined\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\models\\user.Model .js:96:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\controller\\user.controller .js:2:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)',
+  stack: 'ReferenceError: async is not defined\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\models\\user.Model .js:96:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\controller\\user.controller .js:2:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)',
+  exception: true,
+  date: 'Fri Mar 10 2023 15:51:23 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9004,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 40919040,
+      heapTotal: 19292160,
+      heapUsed: 11333704,
+      external: 2425578,
+      arrayBuffers: 190664
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1396048 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: null,
+      line: 96,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-10T10:21:23.635Z'
+}
+{
+  error: ReferenceError: async is not defined
+      at Object.<anonymous> (C:\appraisel\models\user.Model .js:96:13)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\controller\user.controller .js:2:15)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10),
+  level: 'error',
+  message: 'uncaughtException: async is not defined\n' +
+    'ReferenceError: async is not defined\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\models\\user.Model .js:96:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\controller\\user.controller .js:2:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)',
+  stack: 'ReferenceError: async is not defined\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\models\\user.Model .js:96:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\controller\\user.controller .js:2:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)',
+  exception: true,
+  date: 'Fri Mar 10 2023 15:51:53 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8876,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 41066496,
+      heapTotal: 18767872,
+      heapUsed: 11411568,
+      external: 2425578,
+      arrayBuffers: 182472
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1396078 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: null,
+      line: 96,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-10T10:21:53.984Z'
+}

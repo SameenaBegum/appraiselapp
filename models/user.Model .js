@@ -1,7 +1,7 @@
 //const database = require("../utils/database")
 
 //const { formDetails } = require("../controller/user.controller ");
-const { formDetails, appraisalWindow } = require("../controller/user.controller ");
+const { formDetails, appraisalWindow, userNames } = require("../controller/user.controller ");
 const QueryGenerator = require("../generators/query.generator")
 const database = require("../utils/database")
 const UserModel = {
@@ -92,6 +92,11 @@ const UserModel = {
             let query = (`select * from flag order by flag_id desc LIMIT 1`)
             return database.promise().query(query)
             },
+
+            async userNames(){
+                let query=(`select * from users `)
+            return database.promise().query(query)
+            }
 
         
     
