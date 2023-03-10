@@ -336,8 +336,30 @@ console.log('Please enter the correct email...!')
           
           let [appraisal_window]=await UserModel.appraisalWindow()
           console.log("qqqqqq-------",appraisal_window)
-          if(appraisal_window.length>0){
-            new Response(res)._SuccessResponseWithData("Flags Fetched Successfully",appraisal_window[0])
+           if(appraisal_window.length>0){
+            if(appraisal_window[0].is_appraisal_window_open == 'true'){
+              appraisal_window[0].is_appraisal_window_open = true;
+            }else if(appraisal_window[0].is_appraisal_window_open == 'false'){
+               appraisal_window[0].is_appraisal_window_open = false;
+
+            }
+            if(appraisal_window[0].is_appraisal_open_for_employee == 'true'){
+              appraisal_window[0].is_appraisal_open_for_employee = true;
+            }else if(appraisal_window[0].is_appraisal_open_for_employee == 'false'){
+               appraisal_window[0].is_appraisal_open_for_employee = false;
+
+            }
+            console.log("dsdfdf",appraisal_window[0].is_appraisal_window_open);
+            var data ={
+              flag_id:appraisal_window[0].flag_id ,
+              is_appraisal_window_open: appraisal_window[0].is_appraisal_window_open,
+              is_appraisal_open_for_employee: appraisal_window[0].is_appraisal_open_for_employee,
+              created_at:appraisal_window[0].created_at ,
+              updated_at: appraisal_window[0].updated_at
+            }
+            console.log("boolean---",data)
+            
+            new Response(res)._SuccessResponseWithData("Flags Fetched Successfully",data)
   
           }else{
             new Response(res)._ErrorMessage("Flags Not Found")
