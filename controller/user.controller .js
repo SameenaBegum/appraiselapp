@@ -174,9 +174,7 @@ const userController = {
           manager_comment,
           self_aspirations,
           manager_feedback	,
-          employee_self_rating,
-          manager_consolidated_rating
-          }=comment[i];
+           }=comment[i];
 
           console.log("working1")
             var UserData={
@@ -187,9 +185,7 @@ const userController = {
               manager_comment,
               self_aspirations,
               manager_feedback,
-              employee_self_rating,	
-              manager_consolidated_rating,
-              email
+            	email
                }
                console.log("data1------",UserData)
             let [emailcheck] = await UserModel.emailCheck(email);
