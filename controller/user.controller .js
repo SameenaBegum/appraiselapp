@@ -164,6 +164,7 @@ const userController = {
            let email =req.query.email
             
           let comment = req.body;
+          console.log("checking-------",comment)
           for(let i=0; i<comment.length; i++){
             let{
               t_id,
@@ -190,31 +191,35 @@ const userController = {
               manager_consolidated_rating,
               email
                }
+               console.log("data1------",UserData)
             let [emailcheck] = await UserModel.emailCheck(email);
                  if(emailcheck.length>0){
              let [questionCheck]=await UserModel.questionCheck(email)
 
              const checkQuestion = questionCheck.find(obj => obj.t_id == t_id);
                    if(checkQuestion=== undefined){
-                       if(i===comment.length -1){
+                      
      let [comments] = await UserModel.addComment(UserData);
            if(comments.affectedRows>0){
       let getComments=await UserModel.getComment(UserData)
-               if(getComments.length>0){
-                new Response(res)._SuccessResponseWithData("Comments Added Successfully",getComments[0])
+                   if(i===comment.length-1){
+                new Response(res)._SuccessResponseWithData("Comments Added Successfully",getComments)
              }
         }
-      }
+      //}
       }else{
          let [updatecomment]=await UserModel.updateComment(UserData)
          console.log("update-------",updatecomment)
          if(updatecomment.length>0){
+          
+          if(i===comment.length-1){
           console.log("updateeeeee-------",updatecomment)
-          new Response(res)._SuccessResponseWithData("Comments updated Successfully",updatecomment[0])
+          new Response(res)._SuccessResponseWithData("Comments updated Successfully",updatecomment)
           
 
          }
               }
+            }
        } 
      }
               }

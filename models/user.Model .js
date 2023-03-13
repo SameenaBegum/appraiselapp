@@ -49,11 +49,12 @@ const UserModel = {
     },
 
     async questionCheck(email){
-    
+    console.log("wwwwww----",email)
         let query = (`select t_id from comment where email= '${email}' `)
         return database.promise().query(query)
     },
     async emailCheck(email){
+        console.log("checkemail------",email)
         let query = `select email from users where email = '${email}'`;
         return database.promise().query(query)
     },

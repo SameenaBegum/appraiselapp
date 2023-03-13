@@ -2272,3 +2272,465 @@
   label: 'appraiselapp',
   timestamp: '2023-03-09T05:05:23.381Z'
 }
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:11:08.448Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:11:08.472Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:13:39.790Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:13:40.034Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:13:40.035Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:14:25.303Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:14:25.304Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:19:41.155Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:19:41.162Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:21:35.051Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:23:46.883Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:23:46.890Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:23:47.118Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:23:47.119Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:37:43.857Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:37:43.864Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:37:44.089Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:37:44.090Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:39:07.690Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:39:07.692Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:39:07.845Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:39:07.846Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:42:45.040Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:42:45.041Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:42:45.241Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:42:45.243Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:44:55.170Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:44:55.173Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:44:55.388Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:44:55.389Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:46:45.530Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:46:45.762Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:48:59.904Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:48:59.913Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:49:00.150Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:49:00.150Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('3','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:49:00.302Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('3','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:49:00.303Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('4','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:49:00.454Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('4','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:49:00.455Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('5','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:49:00.620Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('5','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:49:00.623Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('6','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:49:00.814Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('6','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:49:00.815Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('7','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:49:00.987Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('7','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:49:00.988Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:49:01.198Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:49:01.200Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:49:01.450Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:49:01.451Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:38.655Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('1','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:38.677Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:38.838Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('2','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:38.839Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('3','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:38.977Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('3','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:38.979Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('4','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:39.115Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('4','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:39.118Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('5','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:39.273Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('5','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:39.274Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('6','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:39.399Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('6','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:39.399Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('7','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:39.531Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('7','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:39.532Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:39.686Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('8','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:39.686Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:39.817Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating,email) VALUES ('9','2','wweee','','','asderf','','4','','sameenabegum.s@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T10:54:39.818Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T11:01:10.761Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T11:01:11.111Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T11:01:11.215Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T11:01:11.350Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T11:01:11.504Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T11:01:11.628Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T11:01:11.730Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T11:01:11.860Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T11:01:11.960Z'
+}
