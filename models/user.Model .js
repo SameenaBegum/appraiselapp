@@ -84,7 +84,9 @@ const UserModel = {
         async LoginUser(UserData){
             console.log("email---------",UserData.email)
             let query = `select email,password from  users where email= '${UserData.email}'`;
-            return database.promise().query(query)
+             database.promise().query(query)
+            let query1=`select * from users where email='${UserData.email}' `
+            return database.promise().query(query1)
            
         },
 
