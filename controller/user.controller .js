@@ -374,18 +374,22 @@ console.log('Please enter the correct email...!')
           try{
             console.log("working")
 
-            let user_names=await UserModel.userNames()
+            let [user_names]=await UserModel.userNames()
             console.log("names-----",user_names)
-            if(user_names.length>0){
-              new Response(res)._SuccessResponseWithData("Users Fetched Successfully",user_names[0])
-
-            }else{
-
-              new Response(res)._ErrorMessage("User Data  Not Found")
-            
-
+           
+            for(let i=0 ;i<user_names.length;i++){
+              console.log("wwwwwww------",user_names[i].email)
+              let[get_user_comment_email]=await UserModel.get_comment_email(user_names[i].email)
+              user_names[i].comments = get_user_comment_email;
+              
             }
-
+            console.log('user_names', user_names)
+           
+            if(user_names.length>0){
+              new Response(res)._SuccessResponseWithData("Users Fetched Successfully",user_names)
+            }else{
+               new Response(res)._ErrorMessage("User Data  Not Found")
+            }
           }catch(err){
 
           }

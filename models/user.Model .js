@@ -96,7 +96,14 @@ const UserModel = {
             async userNames(){
                 let query=(`select * from users `)
             return database.promise().query(query)
-            }
+            },
+
+            async get_comment_email(email){
+                console.log("usercomment--",)
+                let query=(`select * from comment where email='${email}' order by t_id asc`)
+                return database.promise().query(query)
+             }
+            
 
         
     
