@@ -60,7 +60,9 @@ const UserModel = {
     },
     
     async updateComment(UserData){
-        let query = (`update comment set  manager_rating = "${UserData. manager_rating}", manager_comment = "${UserData. manager_comment}", manager_feedback = '${UserData. manager_feedback}', manager_consolidated_rating='${UserData. manager_consolidated_rating}'  where email='${UserData.email}'`);
+        console.log("xxxxxx-------",UserData)
+        let query = (`update comment set  manager_rating ="${UserData.manager_rating}", manager_comment = "${UserData.manager_comment}", manager_feedback = '${UserData.manager_feedback}'  where email='${UserData.email}' AND t_id= ${UserData.t_id}
+        `);
         database.promise().query(query)
        let querys =QueryGenerator.format (`select  * from comment a
        left join technicalaspects b on a.t_id = b.t_id
@@ -78,8 +80,9 @@ const UserModel = {
        
        },
 
-       async get_self_rating(con_email){
-        let query = (`select avg(self_rating )as self_rating,avg(manager_rating)as manager_rating from comment where email="${con_email.email}"`)
+       async get_self_rating(email){
+        console.log("rrrrr--------",email)
+        let query = (`select avg(self_rating )as employee_self_rating,avg(manager_rating)as manager_consolidated_rating,email from comment where email="${email.email}"`)
         return database.promise().query(query)
         },
         async LoginUser(UserData){
@@ -105,7 +108,40 @@ const UserModel = {
                 console.log("usercomment--",)
                 let query=(`select * from comment where email='${email}' order by t_id asc`)
                 return database.promise().query(query)
-             }
+             },
+
+             async insert_Rating(data){
+                let query=QueryGenerator.insert('users_performance ' ,data)
+                return database.promise().query(query)
+             },
+
+             async ratingCheck(email){
+                console.log("wwwwww----",email)
+                    let query = (`select employee_self_rating , manager_consolidated_rating from users_performance where email= '${email}' `)
+                    return database.promise().query(query)
+                },
+
+                async emailrating(email){
+                    console.log("checkemailssssss------",email)
+                    let query = `select email from users_performance where email = '${email}'`;
+                    return database.promise().query(query)
+                },
+
+                async updateRating(consolidate_self_rating){
+                    console.log("kkkkkk-------",consolidate_self_rating)
+                    let query = (`update users_performance set employee_self_rating = "${consolidate_self_rating.employee_self_rating}",manager_consolidated_rating = "${consolidate_self_rating.manager_consolidated_rating}"  where email='${consolidate_self_rating.email}'`);
+                     return database.promise().query(query)
+                },
+
+                async self_rating(){
+                    let query = (`select * from users_performance `)
+                    return database.promise().query(query)
+                    },
+
+                   
+
+
+            
             
 
         

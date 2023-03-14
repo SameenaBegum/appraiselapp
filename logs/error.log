@@ -27647,3 +27647,3643 @@
   label: 'appraiselapp',
   timestamp: '2023-03-13T06:35:02.590Z'
 }
+{
+  error: ReferenceError: async is not defined
+      at Object.<anonymous> (C:\appraisel\models\user.Model .js:109:14)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\controller\user.controller .js:2:15)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10),
+  level: 'error',
+  message: 'uncaughtException: async is not defined\n' +
+    'ReferenceError: async is not defined\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\models\\user.Model .js:109:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\controller\\user.controller .js:2:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)',
+  stack: 'ReferenceError: async is not defined\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\models\\user.Model .js:109:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\controller\\user.controller .js:2:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)',
+  exception: true,
+  date: 'Mon Mar 13 2023 17:34:19 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9312,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 40894464,
+      heapTotal: 19030016,
+      heapUsed: 11370608,
+      external: 2422748,
+      arrayBuffers: 182472
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1661424 },
+  trace: [
+    {
+      column: 14,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: null,
+      line: 109,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T12:04:19.871Z'
+}
+{
+  error: ReferenceError: async is not defined
+      at Object.<anonymous> (C:\appraisel\models\user.Model .js:111:14)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\controller\user.controller .js:2:15)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10),
+  level: 'error',
+  message: 'uncaughtException: async is not defined\n' +
+    'ReferenceError: async is not defined\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\models\\user.Model .js:111:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\controller\\user.controller .js:2:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)',
+  stack: 'ReferenceError: async is not defined\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\models\\user.Model .js:111:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\controller\\user.controller .js:2:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)',
+  exception: true,
+  date: 'Mon Mar 13 2023 18:28:26 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 1832,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 41275392,
+      heapTotal: 19554304,
+      heapUsed: 11494744,
+      external: 2422998,
+      arrayBuffers: 190664
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1664671 },
+  trace: [
+    {
+      column: 14,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: null,
+      line: 111,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-13T12:58:26.989Z'
+}
+{
+  error: Error: Unknown column 'manager_consolidated_rating' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:210:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '', manager_consolidated_rating='undefined'  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'manager_consolidated_rating' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    "Error: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 09:50:30 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2644,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46444544,
+      heapTotal: 32161792,
+      heapUsed: 15717496,
+      external: 1406354,
+      arrayBuffers: 553426
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1719994 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 210,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T04:20:30.341Z'
+}
+{
+  error: Error: Unknown column 'manager_consolidated_rating' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:210:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '', manager_consolidated_rating='undefined'  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'manager_consolidated_rating' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    "Error: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 09:51:08 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 4824,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46448640,
+      heapTotal: 31637504,
+      heapUsed: 15625592,
+      external: 1406354,
+      arrayBuffers: 553426
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1720033 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 210,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T04:21:08.645Z'
+}
+{
+  error: Error: Unknown column 'manager_consolidated_rating' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:210:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '', manager_consolidated_rating='undefined'  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'manager_consolidated_rating' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    "Error: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 09:57:40 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7944,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46288896,
+      heapTotal: 31899648,
+      heapUsed: 15697472,
+      external: 1406354,
+      arrayBuffers: 553426
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1720425 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 210,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T04:27:40.761Z'
+}
+{
+  error: Error: Unknown column 'manager_consolidated_rating' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:210:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '', manager_consolidated_rating='undefined'  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'manager_consolidated_rating' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    "Error: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 09:58:50 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9544,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 47112192,
+      heapTotal: 31899648,
+      heapUsed: 15580896,
+      external: 1406354,
+      arrayBuffers: 553426
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1720494 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 210,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T04:28:50.333Z'
+}
+{
+  error: Error: Unknown column 'manager_consolidated_rating' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:210:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '', manager_consolidated_rating='undefined'  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'manager_consolidated_rating' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    "Error: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 10:01:31 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2868,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46227456,
+      heapTotal: 32161792,
+      heapUsed: 15736872,
+      external: 1406354,
+      arrayBuffers: 553426
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1720656 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 210,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T04:31:32.027Z'
+}
+{
+  error: Error: Unknown column 'manager_consolidated_rating' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:210:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '', manager_consolidated_rating='undefined'  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'manager_consolidated_rating' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    "Error: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 10:02:29 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13304,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 38932480,
+      heapTotal: 14598144,
+      heapUsed: 13374728,
+      external: 1381307,
+      arrayBuffers: 372588
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1720713 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 210,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T04:32:29.203Z'
+}
+{
+  error: Error: Unknown column 'manager_consolidated_rating' in 'field list'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:210:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '', manager_consolidated_rating='undefined'  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'manager_consolidated_rating' in 'field list'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    "Error: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: Unknown column 'manager_consolidated_rating' in 'field list'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 10:03:25 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8856,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46657536,
+      heapTotal: 31899648,
+      heapUsed: 15765856,
+      external: 1406354,
+      arrayBuffers: 553426
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1720769 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 210,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T04:33:25.298Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:210:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 10:05:04 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2012,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46456832,
+      heapTotal: 32423936,
+      heapUsed: 15774760,
+      external: 1406482,
+      arrayBuffers: 553554
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1720869 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 210,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T04:35:04.703Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:210:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 10:09:08 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13540,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46530560,
+      heapTotal: 32423936,
+      heapUsed: 15828256,
+      external: 1406482,
+      arrayBuffers: 553554
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1721113 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 210,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T04:39:08.713Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:210:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 10:10:27 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7176,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46575616,
+      heapTotal: 32161792,
+      heapUsed: 15702816,
+      external: 1406482,
+      arrayBuffers: 553554
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1721192 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 210,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T04:40:27.696Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:210:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 10:37:22 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 4188,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 38387712,
+      heapTotal: 14598144,
+      heapUsed: 13324872,
+      external: 1381435,
+      arrayBuffers: 349651
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1722807 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 210,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T05:07:22.918Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:210:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 10:48:07 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16380,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 39030784,
+      heapTotal: 14860288,
+      heapUsed: 13379344,
+      external: 1265988,
+      arrayBuffers: 429915
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1723452 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 210,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T05:18:07.961Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:210:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 10:49:24 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 14936,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 38715392,
+      heapTotal: 14860288,
+      heapUsed: 13350880,
+      external: 1381435,
+      arrayBuffers: 349651
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1723529 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 210,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T05:19:24.872Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:210:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 10:50:05 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10096,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46411776,
+      heapTotal: 31899648,
+      heapUsed: 15717824,
+      external: 1406482,
+      arrayBuffers: 553554
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1723570 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 210,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T05:20:05.949Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:210:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:210:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 10:50:30 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16248,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46706688,
+      heapTotal: 31899648,
+      heapUsed: 15664272,
+      external: 1406482,
+      arrayBuffers: 553554
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1723594 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 210,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T05:20:30.456Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 11:15:10 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7116,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 38481920,
+      heapTotal: 14598144,
+      heapUsed: 13348016,
+      external: 1380976,
+      arrayBuffers: 349651
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1725075 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T05:45:10.878Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 11:15:46 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16236,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46972928,
+      heapTotal: 32161792,
+      heapUsed: 15407216,
+      external: 1406023,
+      arrayBuffers: 553095
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1725110 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T05:45:46.413Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 11:16:03 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7996,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46678016,
+      heapTotal: 32161792,
+      heapUsed: 15683712,
+      external: 1406023,
+      arrayBuffers: 553095
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1725128 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T05:46:03.836Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 11:16:51 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10224,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46149632,
+      heapTotal: 32161792,
+      heapUsed: 16088816,
+      external: 1406023,
+      arrayBuffers: 553095
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1725176 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T05:46:51.921Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 11:27:25 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 1592,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 38694912,
+      heapTotal: 14598144,
+      heapUsed: 13313704,
+      external: 1380976,
+      arrayBuffers: 349651
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1725810 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T05:57:25.613Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 11:31:11 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 3724,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 39256064,
+      heapTotal: 14598144,
+      heapUsed: 12857288,
+      external: 1265529,
+      arrayBuffers: 429456
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1726035 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:01:11.123Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 11:32:08 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 4216,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46817280,
+      heapTotal: 32161792,
+      heapUsed: 15780440,
+      external: 1406023,
+      arrayBuffers: 553095
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1726093 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:02:08.861Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 11:33:27 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 11684,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46133248,
+      heapTotal: 31899648,
+      heapUsed: 15823160,
+      external: 1406023,
+      arrayBuffers: 553095
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1726171 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:03:27.551Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 11:33:50 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15428,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46440448,
+      heapTotal: 31899648,
+      heapUsed: 15743880,
+      external: 1406023,
+      arrayBuffers: 553095
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1726194 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:03:50.276Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 11:34:33 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15612,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46673920,
+      heapTotal: 31899648,
+      heapUsed: 15667208,
+      external: 1406275,
+      arrayBuffers: 553347
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1726237 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:04:33.399Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 11:34:53 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15496,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46538752,
+      heapTotal: 32161792,
+      heapUsed: 15697480,
+      external: 1406023,
+      arrayBuffers: 553095
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1726258 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:04:53.687Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 11:35:37 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13696,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46825472,
+      heapTotal: 32161792,
+      heapUsed: 15779296,
+      external: 1406023,
+      arrayBuffers: 553095
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1726302 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:05:37.737Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 11:35:55 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7884,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46333952,
+      heapTotal: 32161792,
+      heapUsed: 15773672,
+      external: 1406023,
+      arrayBuffers: 553095
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1726319 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:05:55.469Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 11:36:51 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8188,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46145536,
+      heapTotal: 32161792,
+      heapUsed: 15936064,
+      external: 1406023,
+      arrayBuffers: 553095
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1726375 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:06:51.055Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 11:58:41 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7376,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 38813696,
+      heapTotal: 14598144,
+      heapUsed: 13326864,
+      external: 1380976,
+      arrayBuffers: 349651
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1727686 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:28:41.922Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 11:59:35 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 14940,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 38727680,
+      heapTotal: 14860288,
+      heapUsed: 13349248,
+      external: 1380979,
+      arrayBuffers: 349651
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1727739 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:29:35.125Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 12:04:25 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15044,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 38825984,
+      heapTotal: 14860288,
+      heapUsed: 13233856,
+      external: 1380120,
+      arrayBuffers: 340262
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1728030 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:34:25.624Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 12:06:36 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9260,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46444544,
+      heapTotal: 32161792,
+      heapUsed: 15808272,
+      external: 1405167,
+      arrayBuffers: 552239
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1728161 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:36:36.964Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 12:13:03 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7788,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 38469632,
+      heapTotal: 14598144,
+      heapUsed: 13381464,
+      external: 1380096,
+      arrayBuffers: 340238
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1728547 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:43:03.310Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "5", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 12:17:11 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 6912,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46530560,
+      heapTotal: 31899648,
+      heapUsed: 15438184,
+      external: 1405143,
+      arrayBuffers: 552215
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1728795 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:47:11.255Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "1", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 12:20:05 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 12844,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46510080,
+      heapTotal: 32161792,
+      heapUsed: 15769784,
+      external: 1405143,
+      arrayBuffers: 552215
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1728970 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:50:05.733Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "1", manager_comment = "", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 12:23:21 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 900,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46223360,
+      heapTotal: 32161792,
+      heapUsed: 15771520,
+      external: 1405143,
+      arrayBuffers: 552215
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1729165 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:53:21.331Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "1", manager_comment = "wwww", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 12:27:25 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 12588,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 38473728,
+      heapTotal: 14598144,
+      heapUsed: 13209056,
+      external: 1380123,
+      arrayBuffers: 340238
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1729409 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T06:57:25.230Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating = "1", manager_comment = "wwww", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 13:04:49 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2720,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 38768640,
+      heapTotal: 14598144,
+      heapUsed: 13282208,
+      external: 1380093,
+      arrayBuffers: 349627
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1731654 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T07:34:49.654Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:213:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating ="1", manager_comment = "wwww", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:213:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 13:18:18 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 5256,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 38547456,
+      heapTotal: 14860288,
+      heapUsed: 13233760,
+      external: 1380093,
+      arrayBuffers: 340238
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1732463 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T07:48:18.662Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:64:28)
+      at addComment (C:\appraisel\controller\user.controller .js:214:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating ="1", manager_comment = "wwww", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:214:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:64:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:214:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 13:23:13 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 432,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46645248,
+      heapTotal: 31899648,
+      heapUsed: 15769744,
+      external: 1405140,
+      arrayBuffers: 552212
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1732757 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 64,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 214,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T07:53:13.317Z'
+}
+{
+  error: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.updateComment (C:\appraisel\models\user.Model .js:65:28)
+      at addComment (C:\appraisel\controller\user.controller .js:214:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sql: `update comment set  manager_rating ="1", manager_comment = "wwww", manager_feedback = '',  where email='sameenabegum.s@skeintech.com'`,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1"
+  },
+  level: 'error',
+  message: "uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:65:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:214:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where email='sameenabegum.s@skeintech.com'' at line 1\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.updateComment (C:\\appraisel\\models\\user.Model .js:65:28)\n' +
+    '    at addComment (C:\\appraisel\\controller\\user.controller .js:214:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Mar 14 2023 13:26:35 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 12892,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46768128,
+      heapTotal: 32161792,
+      heapUsed: 15693304,
+      external: 1405140,
+      arrayBuffers: 544020
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1732959 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.updateComment',
+      line: 65,
+      method: 'updateComment',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'addComment',
+      line: 214,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-14T07:56:35.341Z'
+}
