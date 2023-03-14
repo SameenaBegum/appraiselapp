@@ -164,6 +164,7 @@ const userController = {
            let email =req.query.email
             
           let comment = req.body.question;
+          console.log("wwww----",comment)
         
           for(let i=0; i<comment.length; i++){
             let{
@@ -173,7 +174,7 @@ const userController = {
           manager_rating,
           manager_comment,
           }=comment[i];
-             console.log("working1")
+           
             var UserData={
               t_id,
               self_rating,
