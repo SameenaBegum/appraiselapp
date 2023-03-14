@@ -163,7 +163,7 @@ const userController = {
          try{
            let email =req.query.email
             
-          let comment = req.body.question;
+          let comment = req.body.questions;
           console.log("wwww----",comment)
         
           for(let i=0; i<comment.length; i++){
