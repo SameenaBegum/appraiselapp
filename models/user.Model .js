@@ -133,8 +133,9 @@ const UserModel = {
                      return database.promise().query(query)
                 },
 
-                async self_rating(){
-                    let query = (`select * from users_performance `)
+                async self_rating(con_email){
+                    console.log("quer email------",con_email)
+                    let query = (`select * from users_performance where email= '${con_email.email}'`)
                     return database.promise().query(query)
                     },
 

@@ -319,9 +319,12 @@ const userController = {
         console.log("working")
 
         try{
+          let con_email=req.query;
+          console.log("query------",con_email)
+          
         
         
-        let [consolidate_self_rating]=await UserModel.self_rating()
+        let [consolidate_self_rating]=await UserModel.self_rating(con_email)
         console.log("1111-------",consolidate_self_rating)
             if(consolidate_self_rating.length>0){
           new Response(res)._SuccessResponseWithData("Ratings Fetched Successfully",consolidate_self_rating[0])
