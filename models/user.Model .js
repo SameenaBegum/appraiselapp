@@ -61,7 +61,7 @@ const UserModel = {
     
     async updateComment(UserData){
         console.log("xxxxxx-------",UserData)
-        let query = (`update comment set  manager_rating ="${UserData.manager_rating}", manager_comment = "${UserData.manager_comment}", manager_feedback = '${UserData.manager_feedback}'  where email='${UserData.email}' AND t_id= ${UserData.t_id}
+        let query = (`update comment set  manager_rating ="${UserData.manager_rating}", manager_comment = "${UserData.manager_comment}",self_rating ="${UserData.self_rating}",self_comment = "${UserData.self_comment}", self_aspirations = '${UserData.self_aspirations}', manager_feedback = '${UserData.manager_feedback}'  where email='${UserData.email}' AND t_id= ${UserData.t_id}
         `);
         database.promise().query(query)
        let querys =QueryGenerator.format (`select  * from comment a
