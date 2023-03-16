@@ -426,7 +426,10 @@ console.log('Please enter the correct email...!')
           try{
             console.log("working")
 
-            let [user_names]=await UserModel.userNames()
+            let email=req.query;
+            console.log("useremail--------",email)
+
+            let [user_names]=await UserModel.userNames(email)
             console.log("names-----",user_names)
            
             for(let i=0 ;i<user_names.length;i++){
@@ -446,7 +449,34 @@ console.log('Please enter the correct email...!')
 
           }
           
-         }
+         },
+
+         async userList(req,res){
+          try{
+            console.log("working")
+  
+            
+            let [user_list]=await UserModel.userList()
+            console.log("names-----",user_list)
+           
+             if(user_list.length>0){
+              new Response(res)._SuccessResponseWithData("Users Fetched Successfully",user_list)
+            }else{
+               new Response(res)._ErrorMessage("User Data  Not Found")
+            }
+          }catch(err){
+
+          }
+          
+         },
+
+         
+
+
+
+        
+
+         
   
 
        

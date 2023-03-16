@@ -99,8 +99,9 @@ const UserModel = {
             return database.promise().query(query)
             },
 
-            async userNames(){
-                let query=(`select * from users `)
+            async userNames(email){
+                console.log("user-------",email)
+                let query=(`select * from users where email='${email.email}' `)
             return database.promise().query(query)
             },
 
@@ -137,6 +138,12 @@ const UserModel = {
                     console.log("quer email------",con_email)
                     let query = (`select * from users_performance where email= '${con_email.email}'`)
                     return database.promise().query(query)
+                    },
+
+                    async userList(){
+                        console.log("qqqqqq-")
+                         let query=(`select * from users`)
+                         return database.promise().query(query)
                     },
 
                    

@@ -44,6 +44,13 @@ router.get('/appraisalWindow',userController.appraisalWindow);
 
 router.get('/userNames', userController.userNames);
 
+//---------------user names only------------//
+
+router.get('/userList', userController.userList);
+
+
+
+
 
 
 
