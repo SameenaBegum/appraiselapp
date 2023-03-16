@@ -142,7 +142,7 @@ const UserModel = {
 
                     async userList(){
                         console.log("qqqqqq-")
-                         let query=(`select * from users`)
+                         let query=(`select * from users where NOT user_id=3`)
                          return database.promise().query(query)
                     },
 
