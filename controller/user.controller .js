@@ -159,7 +159,7 @@ const userController = {
          }
        },
        async addComment(req,res) {
-        console.log('working')
+        console.log('ww---',req.body)
          try{
            let email =req.params.email
            console.log("em----",email)
