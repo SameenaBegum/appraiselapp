@@ -162,6 +162,7 @@ const userController = {
         console.log('working')
          try{
            let email =req.query.email
+           let type=req.query.type
             
           let comment = req.body.questions;
           console.log("wwww----",comment)
@@ -183,7 +184,8 @@ const userController = {
               manager_comment,
               //self_aspirations,
               //manager_feedback,
-            	email
+            	email,
+              
                }
                console.log("data1------",UserData)
             let [emailcheck] = await UserModel.emailCheck(email);
@@ -206,7 +208,17 @@ const userController = {
       }else{
         console.log("else part  ------")
         console.log("update data checking-------",UserData)
-         let [updatecomment]=await UserModel.updateComment(UserData)
+        let typedata={
+           self_rating:UserData.self_rating,
+          self_comment:UserData.self_comment,
+          manager_rating:UserData.manager_rating,
+          manager_comment:UserData.manager_comment,
+          email:UserData.email,
+          t_id:UserData.t_id,
+          type
+
+        }
+         let [updatecomment]=await UserModel.updateComment(typedata)
         console.log('updatecomment', updatecomment)
          if(updatecomment.length>0){
            if(i===comment.length-1){
@@ -232,15 +244,56 @@ const userController = {
 
           let [consolidate_self_rating]=await UserModel.get_self_rating({email:email})
            console.log("122222-------",consolidate_self_rating[0])
+           if(type=="employee"){
+            console.log("check-----",type)
 
-          let updateRating=await UserModel.updateRating(consolidate_self_rating[0])
+           let { self_aspirations,
+            
+              }=req.body
+
+           let data1={
+            email : consolidate_self_rating[0].email,
+            employee_self_rating:consolidate_self_rating[0].employee_self_rating,
+            manager_consolidated_rating:consolidate_self_rating[0]. manager_consolidated_rating,
+            self_aspirations,
+            type
+           }
+          console.log("1------",data1)
+
+          let updateRating=await UserModel.updateRating(data1)
           console.log("updateRating------",updateRating)
+        }else if(type=="manager"){
+          console.log("elseeeeee parttttttt")
+          console.log("checktype--------",type)
+          let { 
+            manager_feedback,
+            
+            }=req.body
+            console.log("r------",req.body)
+
+            let data1={
+              email : consolidate_self_rating[0].email,
+              employee_self_rating:consolidate_self_rating[0].employee_self_rating,
+              manager_consolidated_rating:consolidate_self_rating[0]. manager_consolidated_rating,
+              manager_feedback,
+              type
+               }
+               let updateRating=await UserModel.updateRating(data1)
+               console.log("updateRating------",updateRating)
+
+
+          
+
+        }
 
          }else{
                    
      
            let [consolidate_self_rating]=await UserModel.get_self_rating({email:email})
            console.log("1111-------",consolidate_self_rating[0])
+
+           let insert_rating = await UserModel.insert_rating(consolidate_self_rating[0])
+           console.log("insert_rating-------",insert_rating)
 
            let { self_aspirations,
             manager_feedback}=req.body
@@ -253,9 +306,9 @@ const userController = {
               manager_feedback
             }
             
-
-           let insert_rating=await UserModel.insert_Rating(data)
-           console.log("qqqqq-----",insert_rating)
+               console.log("testing-------",data)
+           let insert_performance=await UserModel.update_Performance(data)
+           console.log("qqqqq-----",insert_performance)
 
                 
                 }

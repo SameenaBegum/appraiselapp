@@ -60,10 +60,18 @@ const UserModel = {
     },
     
     async updateComment(UserData){
-        console.log("xxxxxx-------",UserData)
-        let query = (`update comment set  manager_rating ="${UserData.manager_rating}", manager_comment = "${UserData.manager_comment}",self_rating ="${UserData.self_rating}",self_comment = "${UserData.self_comment}", self_aspirations = '${UserData.self_aspirations}', manager_feedback = '${UserData.manager_feedback}'  where email='${UserData.email}' AND t_id= ${UserData.t_id}
-        `);
+        console.log("typeee----",UserData.type)
+     if(UserData.type=="manager"){
+        let query = (`update comment set  manager_rating ="${UserData.manager_rating}", manager_comment = "${UserData.manager_comment}"  where email='${UserData.email}' AND t_id= ${UserData.t_id}`);
         database.promise().query(query)
+    
+     }else if(UserData.type=="employee"){
+        
+        let query = (`update comment set self_rating ="${UserData.self_rating}",self_comment = "${UserData.self_comment}"  where email='${UserData.email}' AND t_id= ${UserData.t_id}`);
+        database.promise().query(query)
+        console.log("ty------",query)
+     }
+     
        let querys =QueryGenerator.format (`select  * from comment a
        left join technicalaspects b on a.t_id = b.t_id
         where email= '${UserData.email}'`)
@@ -111,8 +119,9 @@ const UserModel = {
                 return database.promise().query(query)
              },
 
-             async insert_Rating(data){
-                let query=QueryGenerator.insert('users_performance ' ,data)
+             async update_Performance(data){
+                console.log("d-------",data)
+                let query = (`update users_performance set self_aspirations = "${data.self_aspirations}",manager_feedback='${data.manager_feedback}' where email='${data.email}'`);
                 return database.promise().query(query)
              },
 
@@ -128,10 +137,17 @@ const UserModel = {
                     return database.promise().query(query)
                 },
 
-                async updateRating(consolidate_self_rating){
-                    console.log("kkkkkk-------",consolidate_self_rating)
-                    let query = (`update users_performance set employee_self_rating = "${consolidate_self_rating.employee_self_rating}",manager_consolidated_rating = "${consolidate_self_rating.manager_consolidated_rating}"  where email='${consolidate_self_rating.email}'`);
-                     return database.promise().query(query)
+                async updateRating(data1){
+                    console.log("kkkkkk-------",data1)
+                    if(data1.type=="employee"){
+                    let query = (`update users_performance set employee_self_rating = "${data1.employee_self_rating}",manager_consolidated_rating = "${data1.manager_consolidated_rating}",self_aspirations = "${data1.self_aspirations}"  where email='${data1.email}'`);
+                     database.promise().query(query)
+                    }else if(data1.type=="manager"){
+                    let query = (`update users_performance set employee_self_rating = "${data1.employee_self_rating}",manager_consolidated_rating = "${data1.manager_consolidated_rating}",manager_feedback = "${data1.manager_feedback}"  where email='${data1.email}'`)
+                        database.promise().query(query)
+                        console.log("qq--------",query)
+                        
+                    }
                 },
 
                 async self_rating(con_email){
@@ -143,6 +159,12 @@ const UserModel = {
                     async userList(){
                         console.log("qqqqqq-")
                          let query=(`select * from users where NOT user_id=3`)
+                         return database.promise().query(query)
+                    },
+
+                    async insert_rating(consolidate_self_rating){
+                        console.log("data-----",consolidate_self_rating)
+                        let query=QueryGenerator.insert('users_performance' ,consolidate_self_rating)
                          return database.promise().query(query)
                     },
 
