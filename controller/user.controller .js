@@ -161,8 +161,10 @@ const userController = {
        async addComment(req,res) {
         console.log('working')
          try{
-           let email =req.query.email
-           let type=req.query.type
+           let email =req.params.email
+           console.log("em----",email)
+           let type=req.params.type
+           console.log("tt----",type)
             
           let comment = req.body.questions;
           console.log("wwww----",comment)
