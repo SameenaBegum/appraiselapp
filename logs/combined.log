@@ -8770,3 +8770,477 @@
   label: 'appraiselapp',
   timestamp: '2023-03-17T10:46:29.484Z'
 }
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:48:11.507Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:48:11.848Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:48:12.064Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:48:12.210Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'sameenabegum.s@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:48:12.425Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (1,'5','TEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:43.025Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (1,'5','TEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:43.039Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (2,'2','TEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:43.251Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (2,'2','TEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:43.254Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (3,'5','TEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:43.477Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (3,'5','TEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:43.478Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (4,'3','TEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:43.681Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (4,'3','TEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:43.686Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (5,'3','TEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:43.894Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (5,'3','TEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:43.896Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (6,'4','TEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:44.095Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (6,'4','TEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:44.098Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (7,'3','TEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:44.292Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (7,'3','TEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:44.294Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (8,'5','TEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:44.497Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (8,'5','TEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:44.499Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (9,'3','TEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:45.212Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (9,'3','TEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssssTEst1sssssssssssssssssss',NULL,NULL,'abhilash.m@skeintech.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:55:45.215Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:56:15.882Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:56:16.352Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:56:16.578Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:56:17.342Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:56:17.548Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:56:17.748Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:56:18.010Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:56:18.226Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:56:18.501Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:16.684Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:17.034Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:17.158Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:17.317Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:17.474Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:17.607Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:17.725Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:17.863Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:17.986Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:54.523Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:54.904Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:55.086Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:55.256Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:55.429Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:55.615Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:55.797Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:55.985Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T11:58:56.163Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (1,NULL,NULL,'5','asasas','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:16.106Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (1,NULL,NULL,'5','asasas','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:16.110Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (2,NULL,NULL,'4','jhdjfkhsdjkv','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:16.356Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (2,NULL,NULL,'4','jhdjfkhsdjkv','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:16.359Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (3,NULL,NULL,'5','ajhdjdavcdvc','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:16.674Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (3,NULL,NULL,'5','ajhdjdavcdvc','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:16.676Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (4,NULL,NULL,'4','jdvfjvdcvbvc','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:16.951Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (4,NULL,NULL,'4','jdvfjvdcvbvc','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:16.953Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (5,NULL,NULL,'5','jsdhjdvcvx','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:17.227Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (5,NULL,NULL,'5','jsdhjdvcvx','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:17.229Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (6,NULL,NULL,'3','jdvcdvcbvzxc','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:17.464Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (6,NULL,NULL,'3','jdvcdvcbvzxc','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:17.467Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (7,NULL,NULL,'4','bc xb zxc','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:17.698Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (7,NULL,NULL,'4','bc xb zxc','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:17.700Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (8,NULL,NULL,'2','ncvnxb','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:17.959Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (8,NULL,NULL,'2','ncvnxb','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:17.962Z'
+}
+{
+  message: "PREPARING INSERT INTO comment  (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (9,NULL,NULL,'3','nbvzcnmzc','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:18.223Z'
+}
+{
+  message: "PREPARING INSERT INTO comment (t_id,self_rating,self_comment,manager_rating,manager_comment,email) VALUES (9,NULL,NULL,'3','nbvzcnmzc','admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:18.225Z'
+}
+{
+  message: "PREPARING INSERT INTO users_performance (employee_self_rating,manager_consolidated_rating,email) VALUES (NULL,3.888888888888889,'admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:18.511Z'
+}
+{
+  message: "PREPARING INSERT INTO users_performance (employee_self_rating,manager_consolidated_rating,email) VALUES (NULL,3.888888888888889,'admin@gmail.com')",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:02:18.513Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:03:42.340Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:03:42.491Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:03:42.687Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:03:42.862Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:03:43.072Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:03:43.222Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:03:43.421Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:03:43.565Z'
+}
+{
+  message: "PREPARING select * from comment a left join technicalaspects b on a.t_id = b.t_id where email= 'abhilash.m@skeintech.com'",
+  level: 'info',
+  label: 'appraiselapp',
+  timestamp: '2023-03-17T12:03:43.743Z'
+}

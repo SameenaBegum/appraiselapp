@@ -159,15 +159,15 @@ const userController = {
          }
        },
        async addComment(req,res) {
-        console.log('ww---',req.body)
+        console.log('ww---',req.query)
          try{
-           let email =req.params.email
-           console.log("em----",email)
-           let type=req.params.type
-           console.log("tt----",type)
+           let email =req.query.email
+           //console.log("em----",email)
+           let type=req.query.type
+           //console.log("tt----",type)
             
           let comment = req.body.questions;
-          console.log("wwww----",comment)
+          //console.log("wwww----",comment)
         
           for(let i=0; i<comment.length; i++){
             let{
@@ -189,16 +189,16 @@ const userController = {
             	email,
               
                }
-               console.log("data1------",UserData)
+             //  console.log("data1------",UserData)
             let [emailcheck] = await UserModel.emailCheck(email);
                  if(emailcheck.length>0){
              let [questionCheck]=await UserModel.questionCheck(email)
-             console.log("questionCheck-------",questionCheck)
+             // console.log("questionCheck-------",questionCheck)
 
              const checkQuestion = questionCheck.find(obj => obj.t_id == t_id);
-             console.log("checkquestion-----",checkQuestion)
+             // console.log("checkquestion-----",checkQuestion)
                    if(checkQuestion=== undefined){
-                    console.log("allow")
+                  //  console.log("allow")
                  let [comments] = await UserModel.addComment(UserData);
            if(comments.affectedRows>0){
       let getComments=await UserModel.getComment(UserData)
@@ -208,8 +208,8 @@ const userController = {
         }
       
       }else{
-        console.log("else part  ------")
-        console.log("update data checking-------",UserData)
+        // console.log("else part  ------")
+        // console.log("update data checking-------",UserData)
         let typedata={
            self_rating:UserData.self_rating,
           self_comment:UserData.self_comment,
@@ -221,10 +221,10 @@ const userController = {
 
         }
          let [updatecomment]=await UserModel.updateComment(typedata)
-        console.log('updatecomment', updatecomment)
+        // console.log('updatecomment', updatecomment)
          if(updatecomment.length>0){
            if(i===comment.length-1){
-          console.log("updateeeeee-------",updatecomment)
+          // console.log("updateeeeee-------",updatecomment)
           new Response(res)._SuccessResponseWithData("Comments updated Successfully",updatecomment)
            }
               }
