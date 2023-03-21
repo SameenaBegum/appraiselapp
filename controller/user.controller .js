@@ -338,7 +338,7 @@ const userController = {
           manager_name,
           designation,
           department,
-          //role_id,
+          role_id,
           joining_date,
           review_period
        }=req.body;
