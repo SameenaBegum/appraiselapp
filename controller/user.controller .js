@@ -166,7 +166,7 @@ const userController = {
            let type=req.query.type
            //console.log("tt----",type)
             
-          let comment = req.body.questions;
+          let comment = req.body
           //console.log("wwww----",comment)
         
           for(let i=0; i<comment.length; i++){
@@ -249,35 +249,36 @@ const userController = {
            if(type=="employee"){
             console.log("check-----",type)
 
-           let { self_aspirations,
+          //  let { self_aspirations,
             
-              }=req.body
+          //     }=req.body
 
            let data1={
             email : consolidate_self_rating[0].email,
             employee_self_rating:consolidate_self_rating[0].employee_self_rating,
             manager_consolidated_rating:consolidate_self_rating[0]. manager_consolidated_rating,
-            self_aspirations,
+           // self_aspirations,
             type
            }
-          console.log("1------",data1)
+           console.log("checking------",data1)
+         // console.log("1------",data1)
 
           let updateRating=await UserModel.updateRating(data1)
           console.log("updateRating------",updateRating)
         }else if(type=="manager"){
           console.log("elseeeeee parttttttt")
           console.log("checktype--------",type)
-          let { 
-            manager_feedback,
+          // let { 
+          //   manager_feedback,
             
-            }=req.body
-            console.log("r------",req.body)
+          //   }=req.body
+           // console.log("r------",req.body)
 
             let data1={
               email : consolidate_self_rating[0].email,
               employee_self_rating:consolidate_self_rating[0].employee_self_rating,
               manager_consolidated_rating:consolidate_self_rating[0]. manager_consolidated_rating,
-              manager_feedback,
+             // manager_feedback,
               type
                }
                let updateRating=await UserModel.updateRating(data1)
@@ -297,15 +298,15 @@ const userController = {
            let insert_rating = await UserModel.insert_rating(consolidate_self_rating[0])
            console.log("insert_rating-------",insert_rating)
 
-           let { self_aspirations,
-            manager_feedback}=req.body
+          //  let { self_aspirations,
+          //   manager_feedback}=req.body
 
             let data={
               email : consolidate_self_rating[0].email,
               employee_self_rating:consolidate_self_rating[0].employee_self_rating,
               manager_consolidated_rating:consolidate_self_rating[0]. manager_consolidated_rating,
-              self_aspirations,
-              manager_feedback
+             // self_aspirations,
+             // manager_feedback
             }
             
                console.log("testing-------",data)
@@ -524,6 +525,66 @@ console.log('Please enter the correct email...!')
           }
           
          },
+
+         async userComments(req,res){
+          try{
+            console.log("working")
+  
+            let email=req.query;
+            
+          let[user_aspiration]=await UserModel.user_aspiration(email)
+            console.log("performance------",user_aspiration)
+           if(user_aspiration.length>0){
+              new Response(res)._SuccessResponseWithData("Users Comments fetched Successfully",user_aspiration)
+            }else{
+               new Response(res)._ErrorMessage("User Data  Not Found")
+            }
+          }catch(err){
+
+          }
+          
+         },
+
+         async  userFeedback(req,res) {
+          console.log('working')
+           try{
+  
+            let email=req.query;
+            let type=req.query;
+              let{
+                self_aspirations,
+                manager_feedback,
+                
+         }=req.body;
+              console.log("working1")
+              var Data={
+                self_aspirations,
+                manager_feedback,
+                email:email.email,
+                type:type.type
+                }
+              console.log("data----",Data)
+             let [user_feedback] = await UserModel.userFeedback(Data);
+              console.log("qqqqqqqqqqq-",user_feedback)
+          
+               if(user_feedback.affectedRows>0){
+                 console.log("get------",user_feedback.length)
+                
+                 new Response(res)._SuccessResponseWithData("Feedback Fetched Successfully")
+               
+               }
+               else{
+                 new Response(res)._ErrorMessage("Data Not Found")
+               }
+           }
+           catch(err){
+               
+           }
+         },
+
+         
+
+         
 
          
 

@@ -115,7 +115,7 @@ const UserModel = {
 
             async get_comment_email(email){
                 console.log("usercomment--",)
-                let query=(`select * from comment where email='${email}' order by t_id asc`)
+                let query=(`select * from comment a  where email='${email}' order by t_id asc`)
                 return database.promise().query(query)
              },
 
@@ -140,10 +140,10 @@ const UserModel = {
                 async updateRating(data1){
                     console.log("kkkkkk-------",data1)
                     if(data1.type=="employee"){
-                    let query = (`update users_performance set employee_self_rating = "${data1.employee_self_rating}",manager_consolidated_rating = "${data1.manager_consolidated_rating}",self_aspirations = "${data1.self_aspirations}"  where email='${data1.email}'`);
+                    let query = (`update users_performance set employee_self_rating = "${data1.employee_self_rating}",manager_consolidated_rating = "${data1.manager_consolidated_rating}"  where email='${data1.email}'`);
                      database.promise().query(query)
                     }else if(data1.type=="manager"){
-                    let query = (`update users_performance set employee_self_rating = "${data1.employee_self_rating}",manager_consolidated_rating = "${data1.manager_consolidated_rating}",manager_feedback = "${data1.manager_feedback}"  where email='${data1.email}'`)
+                    let query = (`update users_performance set employee_self_rating = "${data1.employee_self_rating}",manager_consolidated_rating = "${data1.manager_consolidated_rating}"  where email='${data1.email}'`)
                         database.promise().query(query)
                         console.log("qq--------",query)
                         
@@ -167,6 +167,43 @@ const UserModel = {
                         let query=QueryGenerator.insert('users_performance' ,consolidate_self_rating)
                          return database.promise().query(query)
                     },
+
+                    async userComments(email){
+                        console.log("qqqqqq-",email)
+                         let query=(`select * from  comment where email='${email.email}'`)
+                         return database.promise().query(query)
+                    },
+                    async user_aspiration(email){
+                        console.log("comments----",email)
+                        let query=(`select self_aspirations,manager_feedback from users_performance where email='${email.email}'`)
+                         return database.promise().query(query)
+                    },
+
+                    async userFeedback(Data){
+                        console.log("typeee1----",Data.type)
+                     if(Data.type=="manager"){
+                        let query = (`update users_performance set manager_feedback ="${Data.manager_feedback}" where email='${Data.email}'`);
+                       return database.promise().query(query)
+                        console.log("executed-------",query)
+                        }else if(Data.type=="employee"){
+                        console.log("typeee----",Data.type)
+                        let query1 = (`update users_performance set self_aspirations ="${Data.self_aspirations}" where email='${Data.email}'`);
+                       return  database.promise().query(query1)
+                        console.log("query executed----",query)
+                         }
+                       
+                    }
+
+                    
+
+                    
+
+
+                    
+
+                    
+
+                    
 
                    
 

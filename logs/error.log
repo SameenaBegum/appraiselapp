@@ -35469,3 +35469,2109 @@
   label: 'appraiselapp',
   timestamp: '2023-03-17T10:33:27.317Z'
 }
+{
+  error: Error: Route.get() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as get] (C:\appraisel\node_modules\express\lib\router\route.js:211:15)
+      at Function.proto.<computed> [as get] (C:\appraisel\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\appraisel\routes\user.routes .js:53:8)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\routes\index.routes.js:7:18),
+  level: 'error',
+  message: 'uncaughtException: Route.get() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.get() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:53:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  stack: 'Error: Route.get() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:53:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  exception: true,
+  date: 'Wed Mar 22 2023 10:31:12 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 6944,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43229184,
+      heapTotal: 21413888,
+      heapUsed: 15003624,
+      external: 952130,
+      arrayBuffers: 148254
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2413637 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as get]',
+      line: 211,
+      method: '<computed> [as get]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.proto.<computed> [as get]',
+      line: 521,
+      method: '<computed> [as get]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\appraisel\\routes\\user.routes .js',
+      function: null,
+      line: 53,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-22T05:01:12.961Z'
+}
+{
+  error: Error: Route.get() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as get] (C:\appraisel\node_modules\express\lib\router\route.js:211:15)
+      at Function.proto.<computed> [as get] (C:\appraisel\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\appraisel\routes\user.routes .js:53:8)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\routes\index.routes.js:7:18),
+  level: 'error',
+  message: 'uncaughtException: Route.get() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.get() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:53:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  stack: 'Error: Route.get() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:53:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  exception: true,
+  date: 'Wed Mar 22 2023 10:31:16 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 5808,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43216896,
+      heapTotal: 21413888,
+      heapUsed: 14945048,
+      external: 952130,
+      arrayBuffers: 148254
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2413640 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as get]',
+      line: 211,
+      method: '<computed> [as get]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.proto.<computed> [as get]',
+      line: 521,
+      method: '<computed> [as get]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\appraisel\\routes\\user.routes .js',
+      function: null,
+      line: 53,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-22T05:01:16.377Z'
+}
+{
+  error: Error: Route.get() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as get] (C:\appraisel\node_modules\express\lib\router\route.js:211:15)
+      at Function.proto.<computed> [as get] (C:\appraisel\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\appraisel\routes\user.routes .js:53:8)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\routes\index.routes.js:7:18),
+  level: 'error',
+  message: 'uncaughtException: Route.get() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.get() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:53:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  stack: 'Error: Route.get() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:53:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  exception: true,
+  date: 'Wed Mar 22 2023 10:32:12 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 14952,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43626496,
+      heapTotal: 21413888,
+      heapUsed: 14971808,
+      external: 952130,
+      arrayBuffers: 148254
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2413696 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as get]',
+      line: 211,
+      method: '<computed> [as get]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.proto.<computed> [as get]',
+      line: 521,
+      method: '<computed> [as get]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\appraisel\\routes\\user.routes .js',
+      function: null,
+      line: 53,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-22T05:02:12.394Z'
+}
+{
+  error: Error: Route.get() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as get] (C:\appraisel\node_modules\express\lib\router\route.js:211:15)
+      at Function.proto.<computed> [as get] (C:\appraisel\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\appraisel\routes\user.routes .js:53:8)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\routes\index.routes.js:7:18),
+  level: 'error',
+  message: 'uncaughtException: Route.get() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.get() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:53:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  stack: 'Error: Route.get() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:53:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  exception: true,
+  date: 'Wed Mar 22 2023 10:32:17 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15724,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43495424,
+      heapTotal: 21676032,
+      heapUsed: 15012728,
+      external: 952130,
+      arrayBuffers: 148254
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2413701 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as get]',
+      line: 211,
+      method: '<computed> [as get]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.proto.<computed> [as get]',
+      line: 521,
+      method: '<computed> [as get]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\appraisel\\routes\\user.routes .js',
+      function: null,
+      line: 53,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-22T05:02:17.194Z'
+}
+{
+  error: Error: Route.get() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as get] (C:\appraisel\node_modules\express\lib\router\route.js:211:15)
+      at Function.proto.<computed> [as get] (C:\appraisel\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\appraisel\routes\user.routes .js:53:8)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\routes\index.routes.js:7:18),
+  level: 'error',
+  message: 'uncaughtException: Route.get() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.get() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:53:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  stack: 'Error: Route.get() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:53:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  exception: true,
+  date: 'Wed Mar 22 2023 10:32:20 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9316,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43282432,
+      heapTotal: 21413888,
+      heapUsed: 14918752,
+      external: 952130,
+      arrayBuffers: 148254
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2413704 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as get]',
+      line: 211,
+      method: '<computed> [as get]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.proto.<computed> [as get]',
+      line: 521,
+      method: '<computed> [as get]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\appraisel\\routes\\user.routes .js',
+      function: null,
+      line: 53,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-22T05:02:20.135Z'
+}
+{
+  error: Error: Route.get() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as get] (C:\appraisel\node_modules\express\lib\router\route.js:211:15)
+      at Function.proto.<computed> [as get] (C:\appraisel\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\appraisel\routes\user.routes .js:53:8)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\routes\index.routes.js:7:18),
+  level: 'error',
+  message: 'uncaughtException: Route.get() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.get() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:53:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  stack: 'Error: Route.get() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:53:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  exception: true,
+  date: 'Wed Mar 22 2023 10:37:58 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 3424,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43315200,
+      heapTotal: 21151744,
+      heapUsed: 14947864,
+      external: 952130,
+      arrayBuffers: 148254
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2414042 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as get]',
+      line: 211,
+      method: '<computed> [as get]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.proto.<computed> [as get]',
+      line: 521,
+      method: '<computed> [as get]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\appraisel\\routes\\user.routes .js',
+      function: null,
+      line: 53,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-22T05:07:58.322Z'
+}
+{
+  error: Error: Route.get() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as get] (C:\appraisel\node_modules\express\lib\router\route.js:211:15)
+      at Function.proto.<computed> [as get] (C:\appraisel\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\appraisel\routes\user.routes .js:53:8)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\routes\index.routes.js:7:18),
+  level: 'error',
+  message: 'uncaughtException: Route.get() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.get() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:53:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  stack: 'Error: Route.get() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as get] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:53:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  exception: true,
+  date: 'Wed Mar 22 2023 10:38:00 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7404,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43163648,
+      heapTotal: 21676032,
+      heapUsed: 14962304,
+      external: 952130,
+      arrayBuffers: 148254
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2414045 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as get]',
+      line: 211,
+      method: '<computed> [as get]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.proto.<computed> [as get]',
+      line: 521,
+      method: '<computed> [as get]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\appraisel\\routes\\user.routes .js',
+      function: null,
+      line: 53,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-22T05:08:00.861Z'
+}
+{
+  error: Error: Route.put() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as put] (C:\appraisel\node_modules\express\lib\router\route.js:211:15)
+      at Function.proto.<computed> [as put] (C:\appraisel\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\appraisel\routes\user.routes .js:57:8)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\routes\index.routes.js:7:18),
+  level: 'error',
+  message: 'uncaughtException: Route.put() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.put() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:57:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  stack: 'Error: Route.put() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:57:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  exception: true,
+  date: 'Wed Mar 22 2023 14:27:47 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 6612,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43552768,
+      heapTotal: 21151744,
+      heapUsed: 14976680,
+      external: 952130,
+      arrayBuffers: 148254
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2427831 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as put]',
+      line: 211,
+      method: '<computed> [as put]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.proto.<computed> [as put]',
+      line: 521,
+      method: '<computed> [as put]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\appraisel\\routes\\user.routes .js',
+      function: null,
+      line: 57,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-22T08:57:47.383Z'
+}
+{
+  error: Error: Route.put() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as put] (C:\appraisel\node_modules\express\lib\router\route.js:211:15)
+      at Function.proto.<computed> [as put] (C:\appraisel\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\appraisel\routes\user.routes .js:57:8)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\routes\index.routes.js:7:18),
+  level: 'error',
+  message: 'uncaughtException: Route.put() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.put() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:57:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  stack: 'Error: Route.put() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:57:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  exception: true,
+  date: 'Wed Mar 22 2023 14:29:43 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7572,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43167744,
+      heapTotal: 21676032,
+      heapUsed: 15062888,
+      external: 952130,
+      arrayBuffers: 148254
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2427947 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as put]',
+      line: 211,
+      method: '<computed> [as put]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.proto.<computed> [as put]',
+      line: 521,
+      method: '<computed> [as put]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\appraisel\\routes\\user.routes .js',
+      function: null,
+      line: 57,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-22T08:59:43.458Z'
+}
+{
+  error: Error: Route.put() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as put] (C:\appraisel\node_modules\express\lib\router\route.js:211:15)
+      at Function.proto.<computed> [as put] (C:\appraisel\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\appraisel\routes\user.routes .js:57:8)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\routes\index.routes.js:7:18),
+  level: 'error',
+  message: 'uncaughtException: Route.put() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.put() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:57:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  stack: 'Error: Route.put() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:57:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  exception: true,
+  date: 'Wed Mar 22 2023 14:29:44 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16300,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43548672,
+      heapTotal: 21938176,
+      heapUsed: 15027568,
+      external: 952130,
+      arrayBuffers: 148254
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2427948 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as put]',
+      line: 211,
+      method: '<computed> [as put]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.proto.<computed> [as put]',
+      line: 521,
+      method: '<computed> [as put]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\appraisel\\routes\\user.routes .js',
+      function: null,
+      line: 57,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-22T08:59:44.592Z'
+}
+{
+  error: Error: Route.put() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as put] (C:\appraisel\node_modules\express\lib\router\route.js:211:15)
+      at Function.proto.<computed> [as put] (C:\appraisel\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\appraisel\routes\user.routes .js:57:8)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\routes\index.routes.js:7:18),
+  level: 'error',
+  message: 'uncaughtException: Route.put() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.put() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:57:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  stack: 'Error: Route.put() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:57:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  exception: true,
+  date: 'Wed Mar 22 2023 14:29:46 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9576,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43438080,
+      heapTotal: 21413888,
+      heapUsed: 14979768,
+      external: 952130,
+      arrayBuffers: 148254
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2427950 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as put]',
+      line: 211,
+      method: '<computed> [as put]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.proto.<computed> [as put]',
+      line: 521,
+      method: '<computed> [as put]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\appraisel\\routes\\user.routes .js',
+      function: null,
+      line: 57,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-22T08:59:46.139Z'
+}
+{
+  error: Error: Route.put() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as put] (C:\appraisel\node_modules\express\lib\router\route.js:211:15)
+      at Function.proto.<computed> [as put] (C:\appraisel\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\appraisel\routes\user.routes .js:57:8)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\routes\index.routes.js:7:18),
+  level: 'error',
+  message: 'uncaughtException: Route.put() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.put() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:57:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  stack: 'Error: Route.put() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:57:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  exception: true,
+  date: 'Wed Mar 22 2023 14:30:29 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15476,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 42967040,
+      heapTotal: 21676032,
+      heapUsed: 14985424,
+      external: 952130,
+      arrayBuffers: 148254
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2427993 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as put]',
+      line: 211,
+      method: '<computed> [as put]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.proto.<computed> [as put]',
+      line: 521,
+      method: '<computed> [as put]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\appraisel\\routes\\user.routes .js',
+      function: null,
+      line: 57,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-22T09:00:29.434Z'
+}
+{
+  error: Error: Route.put() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as put] (C:\appraisel\node_modules\express\lib\router\route.js:211:15)
+      at Function.proto.<computed> [as put] (C:\appraisel\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\appraisel\routes\user.routes .js:57:8)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\routes\index.routes.js:7:18),
+  level: 'error',
+  message: 'uncaughtException: Route.put() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.put() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:57:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  stack: 'Error: Route.put() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:57:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  exception: true,
+  date: 'Wed Mar 22 2023 14:30:30 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13824,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43446272,
+      heapTotal: 21676032,
+      heapUsed: 14976752,
+      external: 952130,
+      arrayBuffers: 148254
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2427995 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as put]',
+      line: 211,
+      method: '<computed> [as put]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.proto.<computed> [as put]',
+      line: 521,
+      method: '<computed> [as put]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\appraisel\\routes\\user.routes .js',
+      function: null,
+      line: 57,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-22T09:00:30.705Z'
+}
+{
+  error: Error: Route.put() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as put] (C:\appraisel\node_modules\express\lib\router\route.js:211:15)
+      at Function.proto.<computed> [as put] (C:\appraisel\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\appraisel\routes\user.routes .js:57:8)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:94:18)
+      at Object.<anonymous> (C:\appraisel\routes\index.routes.js:7:18),
+  level: 'error',
+  message: 'uncaughtException: Route.put() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.put() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:57:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  stack: 'Error: Route.put() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:211:15)\n' +
+    '    at Function.proto.<computed> [as put] (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\user.routes .js:57:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:94:18)\n' +
+    '    at Object.<anonymous> (C:\\appraisel\\routes\\index.routes.js:7:18)',
+  exception: true,
+  date: 'Wed Mar 22 2023 14:30:40 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 6416,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 43565056,
+      heapTotal: 21413888,
+      heapUsed: 15175160,
+      external: 952130,
+      arrayBuffers: 148254
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2428005 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as put]',
+      line: 211,
+      method: '<computed> [as put]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.proto.<computed> [as put]',
+      line: 521,
+      method: '<computed> [as put]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\appraisel\\routes\\user.routes .js',
+      function: null,
+      line: 57,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 94,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\appraisel\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-22T09:00:40.680Z'
+}
+{
+  error: Error: Unknown column 'type' in 'where clause'
+      at PromisePool.query (C:\appraisel\node_modules\mysql2\promise.js:351:22)
+      at Object.userFeedback (C:\appraisel\models\user.Model .js:191:44)
+      at userFeedback (C:\appraisel\controller\user.controller .js:581:46)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\appraisel\node_modules\express\lib\router\route.js:144:13)
+      at Route.dispatch (C:\appraisel\node_modules\express\lib\router\route.js:114:3)
+      at Layer.handle [as handle_request] (C:\appraisel\node_modules\express\lib\router\layer.js:95:5)
+      at C:\appraisel\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\appraisel\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\appraisel\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sql: `update users_performance set self_aspirations ="undefined" where email='sameenabegum.s@skeintech.com' AND type=employee`,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'type' in 'where clause'"
+  },
+  level: 'error',
+  message: "uncaughtException: Unknown column 'type' in 'where clause'\n" +
+    "Error: Unknown column 'type' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.userFeedback (C:\\appraisel\\models\\user.Model .js:191:44)\n' +
+    '    at userFeedback (C:\\appraisel\\controller\\user.controller .js:581:46)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  stack: "Error: Unknown column 'type' in 'where clause'\n" +
+    '    at PromisePool.query (C:\\appraisel\\node_modules\\mysql2\\promise.js:351:22)\n' +
+    '    at Object.userFeedback (C:\\appraisel\\models\\user.Model .js:191:44)\n' +
+    '    at userFeedback (C:\\appraisel\\controller\\user.controller .js:581:46)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (C:\\appraisel\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:346:12)\n' +
+    '    at next (C:\\appraisel\\node_modules\\express\\lib\\router\\index.js:280:10)',
+  exception: true,
+  date: 'Wed Mar 22 2023 15:40:34 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 14876,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\appraisel',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.9.0',
+    argv: [ 'C:\\Program Files\\nodejs\\node.exe', 'C:\\appraisel\\app.js' ],
+    memoryUsage: {
+      rss: 46350336,
+      heapTotal: 31899648,
+      heapUsed: 15114944,
+      external: 1307657,
+      arrayBuffers: 454729
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2432199 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\appraisel\\node_modules\\mysql2\\promise.js',
+      function: 'PromisePool.query',
+      line: 351,
+      method: 'query',
+      native: false
+    },
+    {
+      column: 44,
+      file: 'C:\\appraisel\\models\\user.Model .js',
+      function: 'Object.userFeedback',
+      line: 191,
+      method: 'userFeedback',
+      native: false
+    },
+    {
+      column: 46,
+      file: 'C:\\appraisel\\controller\\user.controller .js',
+      function: 'userFeedback',
+      line: 581,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 114,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\appraisel\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 280,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'appraiselapp',
+  timestamp: '2023-03-22T10:10:34.661Z'
+}

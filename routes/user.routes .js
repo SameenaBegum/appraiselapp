@@ -48,6 +48,20 @@ router.get('/userNames', userController.userNames);
 
 router.get('/userList', userController.userList);
 
+//----------------user comment only----------//
+
+router.get('/userComments', userController.userComments);
+
+//-------------update feedback-----------//
+
+router.put('/userFeedback', userController.userFeedback);
+
+
+
+
+
+
+
 
 
 
