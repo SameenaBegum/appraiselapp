@@ -175,7 +175,7 @@ const UserModel = {
                     },
                     async user_aspiration(email){
                         console.log("comments----",email)
-                        let query=(`select self_aspirations,manager_feedback from users_performance where email='${email.email}'`)
+                        let query=(`select self_aspirations,manager_feedback,employee_self_rating,manager_consolidated_rating from users_performance where email='${email.email}'`)
                          return database.promise().query(query)
                     },
 
