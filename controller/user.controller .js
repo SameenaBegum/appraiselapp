@@ -231,21 +231,13 @@ const userController = {
             }
        } 
      }
-
-
-
-
-      
-
-         let [emailcheck] = await UserModel.emailrating(email);
+        let [emailcheck] = await UserModel.emailrating(email);
          console.log("emails------",emailcheck)
 
          if(emailcheck.length>0){
         
-          
-
           let [consolidate_self_rating]=await UserModel.get_self_rating({email:email})
-           console.log("122222-------",consolidate_self_rating[0])
+           console.log("122222-------",consolidate_self_rating[0].tofixed)
            if(type=="employee"){
             console.log("check-----",type)
 
@@ -562,6 +554,9 @@ console.log('Please enter the correct email...!')
                 manager_feedback,
                 email:email.email,
                 type:type.type
+                }
+                if(self_aspirations == ''){
+                  self_aspirations = '';
                 }
               console.log("data----",Data)
              let [user_feedback] = await UserModel.userFeedback(Data);
