@@ -302,8 +302,8 @@ const userController = {
             }
             
                console.log("testing-------",data)
-           let insert_performance=await UserModel.update_Performance(data)
-           console.log("qqqqq-----",insert_performance)
+          //  let insert_performance=await UserModel.update_Performance(data)
+          //  console.log("qqqqq-----",insert_performance)
 
                 
                 }
@@ -549,16 +549,16 @@ console.log('Please enter the correct email...!')
                 
          }=req.body;
               console.log("working1")
+
+              
               var Data={
                 self_aspirations,
                 manager_feedback,
                 email:email.email,
                 type:type.type
                 }
-                if(self_aspirations == ''){
-                  self_aspirations = '';
-                }
-              console.log("data----",Data)
+                
+               console.log("data----", manager_feedback)
              let [user_feedback] = await UserModel.userFeedback(Data);
               console.log("qqqqqqqqqqq-",user_feedback)
           

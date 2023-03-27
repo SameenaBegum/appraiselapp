@@ -119,11 +119,11 @@ const UserModel = {
                 return database.promise().query(query)
              },
 
-             async update_Performance(data){
-                console.log("d-------",data)
-                let query = (`update users_performance set self_aspirations = "${data.self_aspirations}",manager_feedback='${data.manager_feedback}' where email='${data.email}'`);
-                return database.promise().query(query)
-             },
+            //  async update_Performance(data){
+            //     console.log("d-------",data)
+            //     let query = (`update users_performance set self_aspirations = "${data.self_aspirations}",manager_feedback='${data.manager_feedback}' where email='${data.email}'`);
+            //     return database.promise().query(query)
+            //  },
 
              async ratingCheck(email){
                 console.log("wwwwww----",email)
