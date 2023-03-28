@@ -373,9 +373,20 @@ const userController = {
         
         
         let [consolidate_self_rating]=await UserModel.self_rating(con_email)
-        console.log("1111-------",consolidate_self_rating)
+         
+
+       console.log("1111-------",(consolidate_self_rating[0]))
             if(consolidate_self_rating.length>0){
-          new Response(res)._SuccessResponseWithData("Ratings Fetched Successfully",consolidate_self_rating[0])
+
+              let float=parseFloat(consolidate_self_rating[0].manager_consolidated_rating)
+               console.log("float check-----",float)
+
+         let float_value={
+         employee_self_rating:consolidate_self_rating[0].employee_self_rating,
+         manager_consolidated_rating:float
+        }
+        console.log("-1--------",float_value)
+          new Response(res)._SuccessResponseWithData("Ratings Fetched Successfully",float_value)
 
         }else{
           new Response(res)._ErrorMessage("Ratings Not Found")
